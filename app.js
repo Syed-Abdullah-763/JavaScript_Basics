@@ -320,3 +320,19 @@
 // } else {
 //     console.log("You are not able to attend class.");
 // }
+
+
+
+
+// ********Arrays*********
+
+var arr = ["Abdullah", "Mubbashir", "Maaz"];
+var arr_2 = ["a", "b", "c"];
+
+// console.log(arr);
+// console.log(arr_2);
+
+arr[6] = "Hamza"; 
+console.log(arr);
+console.log(arr[0]);
+console.log(arr[3]);
