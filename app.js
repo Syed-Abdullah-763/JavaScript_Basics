@@ -326,13 +326,86 @@
 
 // ********Arrays*********
 
-var arr = ["Abdullah", "Mubbashir", "Maaz"];
-var arr_2 = ["a", "b", "c"];
+// var arr = ["Abdullah", "Mubbashir", "Maaz"];
+// var arr_2 = ["a", "b", "c"];
 
 // console.log(arr);
 // console.log(arr_2);
 
-arr[6] = "Hamza"; 
-console.log(arr);
-console.log(arr[0]);
-console.log(arr[3]);
+// arr[6] = "Hamza"; 
+// console.log(arr);
+// console.log(arr[0]);
+// console.log(arr[3]);
+
+
+// var names = ["Abdullah", "Mubbashir", "Maaz"];
+
+// // console.log(names[indexNumber] );
+
+
+// console.log(names[2]);
+// console.log(names[1]);
+// console.log(names[0]);
+
+
+// var arr = ["karachi", 2025, 1992, 24, 101, 804, true, undefined, null];
+// console.log(arr.length);
+
+
+// index= length - 1
+// index= 0
+
+
+// Methods 
+
+// pop , push => last index
+// shift , unshift => first index
+
+// var countries = ["Pakistan", "India", "Australia"];
+
+// console.log("pop(remove) element =>", countries.pop());
+// console.log("array after pop =>", countries);
+
+
+// console.log("push(add) element =>", countries.push("England"));   // => length of array 
+// console.log("array after push =>", countries);
+
+
+// console.log("remove(shift) element =>" , countries.shift());
+// console.log( "array after shift=>" , countries);
+
+
+// console.log("add(unshift) element=>" , countries.unshift("Dubai"));
+// console.log( "array after shift=>" , countries);
+
+
+// Summary
+// pop => remove last value in array
+// push => add last value in array
+// shift => remmove first value in array
+// unshift => add first value in array
+
+
+
+// slice(start, end) 
+// slice(index No., length No.) 
+
+// length=>      1           2        3           4
+// var cities = ["karachi", "lahore", "multan", "Islamabad"];
+// index=>      0           1         2           3
+
+// var arrCopy = cities.slice(1, 3);
+
+
+// console.log( "array=>" , cities);
+// console.log( "slice=>" , arrCopy);
+
+// var arrCopy = cities.slice(0, -2);
+// var arrCopy = cities.slice(0, -1);
+// var arrCopy = cities.slice(0, 4);
+// var arrCopy = cities.slice(0, -4);
+// var arrCopy = cities.slice(-1);
+// var arrCopy = cities.slice(1);
+// var arrCopy = cities.slice(0, -1);
+// console.log( "slice=>" , arrCopy);
+
