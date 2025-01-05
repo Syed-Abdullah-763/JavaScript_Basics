@@ -409,3 +409,61 @@
 // var arrCopy = cities.slice(0, -1);
 // console.log( "slice=>" , arrCopy);
 
+
+
+
+// var arr = [1,2,3,4,5,6,7,8,9,10];
+
+// var copyArr = arr.slice(2, 7);
+// var copyArr = arr.slice(3);
+// var copyArr = arr.slice(-1);
+// var copyArr = arr.slice(0, -2);
+
+// console.log(arr);
+// console.log(copyArr);
+
+
+// var arr = ["karachi", "lahore", "Islamabad"]
+
+
+// var copyArr = arr.splice(2, 1) //Remove
+// var copyArr = arr.splice(1, 2) //Remove
+
+// var copyArr = arr.splice(2, 0, "Multan") //Addion
+// var copyArr = arr.splice(2, 1, "Multan") //Replace
+
+// console.log(arr);
+// console.log(copyArr);
+
+// var applied = ["Abdullah", "Sarib", "Zaid", "Mubbashir", "Hamza", "Umer", "Amin", "Ali"];
+
+// console.log("Applied ->", applied);
+
+// var winners = applied.slice(0, 3);
+// var passed = applied.slice(3);
+
+// console.log("Wnners ->", winners);
+// console.log("Passed ->", passed);
+
+
+
+// var lateApplied = applied.splice(2, 0, "Hmmad", "Amir", "Haseeb");
+// var lateApplied = applied.splice(2, 1);
+// var lateApplied = applied.splice(3, 1, "Kashif");
+
+// var winners = applied.slice(0, 3);
+// var passed = applied.slice(3);
+
+// console.log("After Change");
+// console.log("Applied ->", applied);
+// console.log("Wnners ->", winners);
+// console.log("Passed ->", passed);
+// console.log("Late Applied ->", lateApplied);
+
+
+
+// ********for-Loop*******
+
+// for (var i = 1; i <= 10; i++) {
+//     console.log("Hello World", i);
+// }
