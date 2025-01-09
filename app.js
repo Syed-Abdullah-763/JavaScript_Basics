@@ -78,7 +78,7 @@
 
 // if (age == 18) {
 //     console.log(true);
-    
+
 // } else {
 //     console.log(false);
 // }
@@ -88,7 +88,7 @@
 
 // if (age === 18) {
 //     console.log(true);
-    
+
 // } else {
 //     console.log(false);
 // }
@@ -467,3 +467,57 @@
 // for (var i = 1; i <= 10; i++) {
 //     console.log("Hello World", i);
 // }
+
+
+// for (var i = 1; i <= 5; i++) {
+//     document.write("number ", i + "<br />");
+// }
+
+
+// for(var i = 10; i >= 1; i--) {
+//     document.write("decrement "+ i + "<br />");
+// }
+
+// for(var i = 2; i >= -20; i = i - 2) {
+//     document.write("decrement "+ i + "<br />");
+// }
+
+// for (var i = 2; i >= 20; i = i + 2) {
+//     document.write("decrement " + i + "<br />");
+// }
+
+
+
+// Table 
+
+// var tableNumber = +prompt("Which table do you want to print ?");
+// var startingNumber = +prompt("Write starting point..."); 
+// var endingNumber = +prompt("Write ending point...");
+
+// var tableNumber = 2
+// var startingNumber = 1 
+// var endingNumber = 10
+
+// for (var i = startingNumber; i <= endingNumber; i++) {
+//     document.write( tableNumber + " x " + i + " = " + i*tableNumber + "<br />");
+// }
+
+var tableNumber = +prompt("Which table do you want to print ?");
+var startingNumber = +prompt("Write starting point..."); 
+var endingNumber = +prompt("Write ending point...");
+
+if (startingNumber <= endingNumber && typeof(tableNumber) == "number" && typeof(startingNumber) == "number" && typeof(endingNumber) == "number") {
+
+    for (var i = startingNumber; i <= endingNumber; i++) {
+        document.write( tableNumber + " x " + i + " = " + i*tableNumber + "<br />");
+    }
+
+} else {
+    document.write("Syntax Error");    
+}
+
+
+
+
+
+
