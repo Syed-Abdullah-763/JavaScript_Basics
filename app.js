@@ -502,22 +502,62 @@
 //     document.write( tableNumber + " x " + i + " = " + i*tableNumber + "<br />");
 // }
 
-var tableNumber = +prompt("Which table do you want to print ?");
-var startingNumber = +prompt("Write starting point..."); 
-var endingNumber = +prompt("Write ending point...");
+// var tableNumber = +prompt("Which table do you want to print ?");
+// var startingNumber = +prompt("Write starting point..."); 
+// var endingNumber = +prompt("Write ending point...");
 
-if (startingNumber <= endingNumber && typeof(tableNumber) == "number" && typeof(startingNumber) == "number" && typeof(endingNumber) == "number") {
+// if (startingNumber <= endingNumber && typeof(tableNumber) == "number" && typeof(startingNumber) == "number" && typeof(endingNumber) == "number") {
 
-    for (var i = startingNumber; i <= endingNumber; i++) {
-        document.write( tableNumber + " x " + i + " = " + i*tableNumber + "<br />");
-    }
+//     for (var i = startingNumber; i <= endingNumber; i++) {
+//         document.write( tableNumber + " x " + i + " = " + i*tableNumber + "<br />");
+//     }
 
-} else {
-    document.write("Syntax Error");    
+// } else {
+//     document.write("Syntax Error");    
+// }
+
+
+
+// var cities = [
+//     "Karachi",
+//     "Lahore", 
+//     "Multan", 
+//     "Islamabad",
+// ];
+
+// for (var i = 0; i <= cities.length; i++) {
+//     document.write(cities[i] + "<br />");
+// };
+
+
+// for (var i = cities.length - 1; i >= 0; i--) {
+//     document.write(cities[i] + "<br />");
+// };
+
+
+// Assignment
+
+var subjectName = [
+    "Html Marks:",
+    "CSS Marks:",
+    "JavaScript Marks:",
+    "React Marks:",
+    "Next.js Marks:",
+];
+
+var scoreArr = [];
+
+
+var htmlMarks = +prompt("Enter your HTML marks..");
+var cssMarks = +prompt("Enter your CSS marks..");
+var javaScriptMarks = +prompt("Enter your JavaScript marks..");
+var reactJsMarks = +prompt("Enter your React.js marks..");
+var nextJsMarks = +prompt("Enter your Next.js marks..");
+
+// Push these input values in scoreArr
+scoreArr.push(htmlMarks, cssMarks, javaScriptMarks, reactJsMarks, nextJsMarks);
+
+// loop for print these values
+for (var i = 0; i < scoreArr.length; i++) {
+    document.write(subjectName[i] + " " + scoreArr[i] + "<br />");
 }
-
-
-
-
-
-
