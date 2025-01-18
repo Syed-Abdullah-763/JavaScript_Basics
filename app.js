@@ -537,27 +537,71 @@
 
 // Assignment
 
-var subjectName = [
-    "Html Marks:",
-    "CSS Marks:",
-    "JavaScript Marks:",
-    "React Marks:",
-    "Next.js Marks:",
-];
+// var subjectName = [
+//     "Html Marks:",
+//     "CSS Marks:",
+//     "JavaScript Marks:",
+//     "React Marks:",
+//     "Next.js Marks:",
+// ];
 
-var scoreArr = [];
+// var scoreArr = [];
 
 
-var htmlMarks = +prompt("Enter your HTML marks..");
-var cssMarks = +prompt("Enter your CSS marks..");
-var javaScriptMarks = +prompt("Enter your JavaScript marks..");
-var reactJsMarks = +prompt("Enter your React.js marks..");
-var nextJsMarks = +prompt("Enter your Next.js marks..");
+// var htmlMarks = +prompt("Enter your HTML marks..");
+// var cssMarks = +prompt("Enter your CSS marks..");
+// var javaScriptMarks = +prompt("Enter your JavaScript marks..");
+// var reactJsMarks = +prompt("Enter your React.js marks..");
+// var nextJsMarks = +prompt("Enter your Next.js marks..");
 
-// Push these input values in scoreArr
-scoreArr.push(htmlMarks, cssMarks, javaScriptMarks, reactJsMarks, nextJsMarks);
+// // Push these input values in scoreArr
+// scoreArr.push(htmlMarks, cssMarks, javaScriptMarks, reactJsMarks, nextJsMarks);
 
-// loop for print these values
-for (var i = 0; i < scoreArr.length; i++) {
-    document.write(subjectName[i] + " " + scoreArr[i] + "<br />");
-}
+// // loop for print these values
+// for (var i = 0; i < scoreArr.length; i++) {
+//     document.write(subjectName[i] + " " + scoreArr[i] + "<br />");
+// }
+
+
+
+
+
+
+
+
+
+// checking existence of value in array 
+
+// var userCity = prompt("Enter Your City Name");
+
+// var cities = ["Karachi", "Lahore", "Multan", "Islamabad"];
+
+// var isMatch = false;
+
+// for (var i = 0; i < cities.length; i++) {
+
+//     if (userCity == cities[i]) {
+//         isMatch = true;
+
+//         alert("Welcome!");
+//         document.write( i + 1 + "." + cities[i]);
+
+//         break;
+//     }
+// }
+
+// if(isMatch == false) {
+//     alert("Your input is not found wrong.");
+// }
+
+
+
+// nested loop
+
+// for (var i = 0; i <= 2; i++) {
+//     console.log("Outer loop", i)
+//     for (var j = 0; j <= 2; j++) {
+
+//     console.log("Inner loop", j)
+//     }
+// }
