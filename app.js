@@ -605,3 +605,24 @@
 //     console.log("Inner loop", j)
 //     }
 // }
+
+
+
+
+
+// ***********String************
+
+
+// var str = "often abbreviated as JS, is a programming language and core technology of the Web, alongside HTML and CSS. 99% of websites use JavaScript on the client side for webpage behavior.[10] Web browsers have a dedicated JavaScript engine that executes the client code. These engines are also utilized in some servers and a variety of apps. The most popular runtime Javascript system for non-browser usage is Node.js."
+
+
+// for (var i = 0; i < str.length; i++) {
+//     if(str.slice(i, i + 10).toLowerCase() == "javascript") {
+//         console.log(i);
+
+//         var text = str.slice(0, i) + "Changed => js" + str.slice(i + 10, str.length);
+//         console.log(text);
+
+//         continue;
+//     }
+// }
