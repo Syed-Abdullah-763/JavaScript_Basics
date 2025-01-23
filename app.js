@@ -617,12 +617,110 @@
 
 
 // for (var i = 0; i < str.length; i++) {
-//     if(str.slice(i, i + 10).toLowerCase() == "javascript") {
-//         console.log(i);
-
+    //     if(str.slice(i, i + 10).toLowerCase() == "javascript") {
+        //         console.log(i);
+        
 //         var text = str.slice(0, i) + "Changed => js" + str.slice(i + 10, str.length);
 //         console.log(text);
 
 //         continue;
 //     }
 // }
+
+
+
+
+
+// Methods of arrays 
+
+// var str = "Often abbreviated as JS, is a programming language and core technology of the Web, alongside HTML and CSS. 99% of websites use JavaScript on the client side for webpage behavior.[10] Web browsers have a dedicated JavaScript engine that executes the client code. These engines are also utilized in some servers and a variety of apps. The most popular runtime Javascript system for non-browser usage is Node.js."
+
+
+// console.log(str.toLocaleLowerCase().indexOf("javascript"));
+// console.log(str.charAt(127));
+
+// if()
+
+
+// var arr = ["lahore", "karachi"];
+// var indexNum = arr.indexOf(prompt("Enter yoyur city name"));
+// // console.log("indexNum", indexNum);
+// if (indexNum == -1) {
+//   alert("not found");
+// } else {
+//   alert("welcome");
+// }
+
+
+
+
+// var word = prompt("Enter your word")
+// var findIndex = str.toLowerCase().indexOf(word);
+// console.log(findIndex)
+
+// if(findIndex == -1) {
+//     alert("Not Found.");
+// } else {
+//     alert(`Your word "${word}" exists on ${findIndex} index number`);
+// }
+
+
+
+
+
+
+// console.log(str.charAt(127));
+
+
+
+
+// var str = "With HTML you can create HTML your own Website.";
+// var replaceWoed = str.replaceAll("HTML", "HYPER TEXT MARKUP LANGUAGE");
+                    // OR 
+// str = str.replace("HTML", "HYPER TEXT MARKUP LANGUAGE");
+// str = str.replaceAll("HTML", "HYPER TEXT MARKUP LANGUAGE");
+
+// var index = str.lastIndexOf("HTML");
+
+
+// console.log(str);
+// console.log(index);
+// console.log(replaceWoed);
+
+
+// indexOf => Find index of first match element from left to right
+// lastIndexOf => Find index of first match element from right to left
+// chatAt => Find character or value on defined index number
+// replace => replace first match value from left to right
+// replaceAll => replace all match values in the give string (from left to right)
+
+
+
+
+
+
+
+// ******** Math Library ********
+
+
+// Math.round => Convert decemal to integar according to round-of rule
+// Math.floor => Convert decemal to integar by just removing point and values after point
+// Math.ceil => Convert decemal to integar by increse a number (without using round-of rule)
+
+
+// var num = 90.88;
+// console.log(num);
+
+// var round = Math.round(num);
+// console.log(round);
+
+
+// var floor = Math.floor(num);
+// console.log(floor);
+
+
+// num = 98.1
+// console.log("Reinitialized => ",num);
+
+// var ceil = Math.ceil(num);
+// console.log(ceil);
