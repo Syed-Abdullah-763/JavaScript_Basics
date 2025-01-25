@@ -724,3 +724,63 @@
 
 // var ceil = Math.ceil(num);
 // console.log(ceil);
+
+
+
+
+
+
+
+// var userInput = +prompt("Enter number between 1 to 10");
+
+// var number = Math.floor(Math.random() * 10 + 1);
+// console.log("Your number is ",number);
+
+
+// if(userInput == number) {
+//     alert("Your number is matched");
+// }else if (userInput - 1 == number || userInput + 1 == number){
+//     alert("Your hit is very close");
+// }else if (userInput > number){
+//     alert("Your number is greater");
+// }else if (userInput < number) {
+//     alert("Your number is less");
+// }else if (userInput < 1 || userInput > 10) {
+//     alert("Invalid number");
+// }else {
+//     alert("Better luck, try again");
+// }
+
+
+
+
+
+
+// ********Conversoin of String to Number******* 
+
+// var str1 = "100";
+// var str2 = "200";
+
+// var add = str1 + str2;
+
+// var number = Number(add);
+
+// console.log(number);
+
+
+
+// var con = Number("451.8989987878");
+// var con1 = parseInt("451.8989987878");
+
+// console.log( "Number " ,con);
+// console.log( "ParesInt" ,con1);
+
+
+
+
+// var str = 1200987;
+// console.log(String(str));
+
+// var number = str.toLocaleString();
+// console.log("Number ", str);
+// console.log("String", number);
