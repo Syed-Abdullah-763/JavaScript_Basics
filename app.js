@@ -784,3 +784,70 @@
 // var number = str.toLocaleString();
 // console.log("Number ", str);
 // console.log("String", number);
+
+
+
+
+
+
+
+
+// Nested Condition 
+
+// var userName = "syed.abdullah@gmail.com"
+// var password = "syeddd@11"
+
+// var userInput = " "
+// var userPass = " "
+
+// if(userInput == userName) {
+//     if (userPass == password) {
+//         console.log("You have successfully logged in");
+//     }else {
+//         console.log("Invalid password");
+//     }
+// }else {
+//     console.log("Incorrect user name or password");
+// }
+
+
+
+
+
+
+
+// str convert into array
+// var str = "saylani mass it training";
+// var str = "saylani";
+// console.log("str", str.split("a"));
+
+
+
+// array convert into str
+// join
+// var arr = ["saylani", "smit", "hello", "world"];
+// console.log(arr.join(" "));
+// console.log(arr.reverse());
+
+
+
+
+
+
+
+// var str = "HTML is the standard markup language for Web pages.";
+
+// var arr = str.split(" ")
+
+
+// var tempArr = []
+
+// for(var i = 0; i < arr.length; i++) {
+//     // var word = arr[i]
+//     // console.log(word[0].toUpperCase() + word.slice(1).toLowerCase());
+
+
+//     tempArr.push(arr[i][0].toUpperCase() + arr[i].slice(1).toLowerCase());
+// }
+
+// console.log(tempArr.join(" "));
