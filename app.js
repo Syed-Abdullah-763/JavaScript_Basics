@@ -851,3 +851,74 @@
 // }
 
 // console.log(tempArr.join(" "));
+
+
+
+
+
+
+// *********Date***********
+
+
+// var date = new Date ()
+// var date = new Date ("02 18 2025")
+// var month = date.getMonth()
+
+// console.log(date);
+
+
+// var date = new Date()
+
+// console.log(date);
+// console.log("toDateString",date.toDateString());
+// console.log("toISOString",date.toISOString());
+// console.log("toJSON",date.toJSON());
+// console.log("toUTCString",date.toUTCString());
+
+
+// var myCreatedDate = new Date (2025, 1, 19)
+// console.log(myCreatedDate.toUTCString());
+
+// console.log(Date.now());
+
+
+
+// var day = new Date().getDay()
+// var hours = new Date().getHours()
+// var year = new Date().getFullYear()
+// var month = new Date().getMonth()
+// var seconds = new Date().getSeconds()
+// console.log(seconds);
+
+// console.log(month);
+
+
+
+
+
+// -----Age Calculator-------
+
+// var userDOB = new Date (prompt("Enter your date of birth", "01 18 2025")).getTime();
+// var currentDate = new Date().getTime();
+// var ageMili = currentDate - userDOB;
+// var age = ageMili / (1000 * 60 * 60 * 24 * 365)
+// console.log(Math.floor(age));
+
+
+
+// -------Sale Program------
+
+// var currentDate = new Date ();
+// // console.log(currentDate);
+// var currentMillisecond = currentDate.getTime()
+
+// var saleDate = new Date ("02 14 2025")
+// // console.log(saleDate);
+// var saleMilili = saleDate.getTime();
+
+// var remainingDaysMilliseconds = saleMilili - currentMillisecond;
+// var remaingDays = remainingDaysMilliseconds / (1000 * 60 * 60 * 24)
+// var daysLeft = Math.ceil(remaingDays);
+
+// document.write(`Only ${daysLeft} are left for exclusive sale.` + "<br />")
+// document.write(`Go and check the sale now` + "<br />")
