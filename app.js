@@ -922,3 +922,46 @@
 
 // document.write(`Only ${daysLeft} are left for exclusive sale.` + "<br />")
 // document.write(`Go and check the sale now` + "<br />")
+
+
+
+
+
+
+
+
+
+// ****************Functions******************
+
+// function addition() {
+//     var num1 = 10;
+//     var num2 = 20;
+//     console.log(num1 + num2);
+// }
+// addition();
+
+
+
+// function sub (num1, num2) {
+//     console.log(num1 - num2);
+// }
+// sub(100, 50)
+
+
+// calculator
+
+// function calc(){
+//     var num1 = +prompt("Enter your number here")
+//     var opt = prompt("Enter your Operator")
+//     var num2 = +prompt("Enter your number here")
+
+//     if(opt == "+") {
+//         console.log(num1 + num2);
+//     }else if (opt === "-") {
+//         console.log(num1 - num2);
+//     }else if (opt == "*") {
+//         console.log(num1 * num2);
+//     }else if (opt === "/") {
+//         console.log(num1 / num2);
+//     }
+// }
