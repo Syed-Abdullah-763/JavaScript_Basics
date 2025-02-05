@@ -965,3 +965,104 @@
 //         console.log(num1 / num2);
 //     }
 // }
+
+
+
+// function greet() {
+//     console.log("Hello world");
+// }
+// greet()
+
+
+
+// function add(num1, num2) {
+//     console.log("num2", num2);
+    
+//     if (num2 == undefined) {
+//         num2 = 0;
+//     }
+    
+//     console.log("num2", num2);
+//     console.log(num1 + num2);
+// }
+// add(10)
+
+
+
+
+// function add (num1 = 0, num2 = 0, num3 = 0) {
+//     console.log(num1 + num2 + num3);
+//     console.log("num1", num1);
+//     console.log("num2", num2);
+//     console.log("num3", num3);
+    
+// }
+// add(50, 40)
+
+
+
+
+// function greet (userName = "") {
+//     alert ("Hello " + userName)
+// }
+
+// greet ("Abdullah")
+
+
+
+
+
+// function foo () {
+//     var add = 50 + 50;
+
+//     return add
+// } 
+
+// var temp = foo ();
+
+// console.log(temp);
+
+
+
+// function foo () {
+//     var add = 50 + 50;
+    
+//     return "add"
+// } 
+
+// var temp = foo ();
+
+// console.log(temp);
+
+
+
+// function addition (num1 = 0, num2 = 0) {
+//     console.log(num1 + num2);
+
+//     // return num1 + num2
+//     // return "Hello"
+// }
+
+// var result = addition(100,400)
+
+// console.log(result);
+
+
+
+
+
+
+function onePlusAvg (x, y) {
+
+    console.log("Done");
+    
+    return 1 + (x + y) / 2
+}
+
+var a = 5;
+var b = 10;
+var c = 15;
+
+console.log("One plus average of a and b is ", onePlusAvg(a, b));
+console.log("One plus average of a and c is ", onePlusAvg(a, c));
+console.log("One plus average of b and c is ", onePlusAvg(b, c));
