@@ -1049,20 +1049,41 @@
 
 
 
+// function onePlusAvg (x, y) {
 
-
-
-function onePlusAvg (x, y) {
-
-    console.log("Done");
+//     console.log("Done");
     
-    return 1 + (x + y) / 2
+//     return 1 + (x + y) / 2
+// }
+
+// var a = 5;
+// var b = 10;
+// var c = 15;
+
+// console.log("One plus average of a and b is ", onePlusAvg(a, b));
+// console.log("One plus average of a and c is ", onePlusAvg(a, c));
+// console.log("One plus average of b and c is ", onePlusAvg(b, c));
+
+
+
+
+
+// Get Input Value 
+
+function getValue() {
+    // console.log("get value");
+    
+    var userName = document.getElementById("userName")
+    var password = document.getElementById("password")
+
+    console.log(userName.value);
+    console.log(password.value);
 }
 
-var a = 5;
-var b = 10;
-var c = 15;
+function setValue() {
+    var userName = document.getElementById("userName")
+    var password = document.getElementById("password")
 
-console.log("One plus average of a and b is ", onePlusAvg(a, b));
-console.log("One plus average of a and c is ", onePlusAvg(a, c));
-console.log("One plus average of b and c is ", onePlusAvg(b, c));
+    userName.value = "Syed Abdullah"
+    password.value = "abdullah_1118"
+}
