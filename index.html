@@ -7,6 +7,11 @@
 </head>
 
 <style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
 
 /* button{
     background-color: black;
@@ -22,7 +27,7 @@
 }  */
 
 
-.parent {
+/*.parent {
     height: 100vh;
     width: 100%;
     display: flex;
@@ -66,6 +71,90 @@ button {
     &:hover {
         background-color: rgb(56, 173, 56);
     }
+} */
+
+
+
+
+.page{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(169, 225, 169);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.sub_page {
+    height: 70%;
+    width: 35%;
+    margin: 30px;
+    border-radius: 20px;
+    background-color: rgba(78, 147, 78, 0.343);
+}
+section{
+    height: 19%;
+    width: 100%;
+    margin: 35px 30px;
+    display: flex;
+    flex-direction: column;
+}
+section label {
+    color: rgb(7, 63, 7);
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+section input {
+    height: 43px;
+    width: 80%;
+    padding: 5px 15px;
+    border: 0;
+    border-radius: 10px;
+    box-shadow: rgba(56, 113, 56, 0.2) 0px 8px 24px;
+}
+section input::placeholder {
+    font-size: 14px;
+    color: rgb(56, 113, 56);
+}
+section input:focus {
+    outline: 2px solid rgb(56, 113, 56);
+}
+.sub_page button {
+    height: 35px;
+    width: 80%;
+    border: none;
+    border-radius: 14px;
+    margin-left: 30px;
+    /* display: block; */
+    cursor: pointer;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    background-color: rgb(83, 168, 83);
+
+    &:hover {
+        background-color: rgb(71, 141, 71);
+    }
+}
+.sub2 {
+    padding-top: 50px;
+}
+.text {
+    height: 10%;
+    width: 100%;
+    margin: 35px 35px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.text h2 {
+    color: rgb(7, 63, 7);
+    font-size: 20px;
+}
+.text h4 {
+    color: rgb(63, 109, 63);
+    font-size: 18px;
 }
 
 </style> 
@@ -78,11 +167,38 @@ button {
     <!-- <button onclick="greet(prompt('Enter user name'))">Click to calculate value</button> -->
 
 
-    <div class="parent">
+    <!-- <div class="parent">
         <input type="text" placeholder="Enter unique username" id="userName">
         <input type="password" placeholder="Enter your password" id="password">
         <button onclick="getValue()">Submit</button>
         <button onclick="setValue()" class="green">Set Value</button>
+    </div> -->
+
+
+    <div class="page">
+        <div class="sub_page">
+            <section>
+                <label for="email">Email</label>
+                <input type="text" placeholder="Enter Your Email" id="email">
+            </section>
+            <section>
+                <label for="password">Password</label>
+                <input type="password" placeholder="Enter Unique Password" id="password">
+            </section>
+            <button onclick="login()">Login</button>
+        </div>
+
+        <div class="sub_page sub2">
+            <div class="text">
+                <h2>Email: </h2>
+                <h4 id="emailVal"></h4>
+            </div>
+            <div class="text">
+                <h2>Password: </h2>
+                <h4 id = "passVal"></h4>
+            </div>
+            <button onclick="reset()">Reset</button>
+        </div>
     </div>
 
 

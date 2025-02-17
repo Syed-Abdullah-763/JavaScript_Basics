@@ -1070,20 +1070,153 @@
 
 // Get Input Value 
 
-function getValue() {
-    // console.log("get value");
+// function getValue() {
+//     // console.log("get value");
     
-    var userName = document.getElementById("userName")
-    var password = document.getElementById("password")
+//     var userName = document.getElementById("userName")
+//     var password = document.getElementById("password")
 
-    console.log(userName.value);
-    console.log(password.value);
+//     console.log(userName.value);
+//     console.log(password.value);
+// }
+
+// function setValue() {
+//     var userName = document.getElementById("userName")
+//     var password = document.getElementById("password")
+
+//     userName.value = "Syed Abdullah"
+//     password.value = "abdullah_1118"
+// }
+
+
+
+
+
+// function sqr(num) {
+//     return num * num;
+// }
+// var result = sqr(prompt("Enter positive number!"))
+// console.log(result);
+
+
+
+
+// function factorial (num) {
+//     if (num == 1) {
+//         return 1;
+//     }
+
+
+//     return num * factorial(num - 1);
+// }
+// var result = factorial(5);
+// console.log(result);
+
+
+
+
+// function hypotenuse (per, base) {
+//     function sqr(num) {
+
+//         return num * num;
+//     };
+
+//     var hyp = Math.sqrt(
+//         sqr(per) + sqr(base)
+//     );
+
+//     return hyp
+// }
+// var result = hypotenuse(5,4);
+// console.log(result);
+
+
+
+
+// function isPalindrome(str) {
+//     var cleanStr = str.replace(/[^a-zA-Z]/g, "").toLowerCase();
+
+//     var reverseStr = cleanStr.split("").reverse().join("");
+
+//     return reverseStr === str;
+// }
+// var result = isPalindrome("madam")
+// console.log(result);
+
+
+
+// function upperCase(str) {
+//     var splitStr = str.split(" ");
+
+//     var capatalizedWords = splitStr.map(function (word) {
+//        return word[0].toUpperCase() + word.slice(1);
+//     });
+
+//     return capatalizedWords.join(" ");
+// }
+// var result = upperCase("the quick brown fox")
+// console.log(result);
+
+
+
+// function longestWord (str) {
+//     var longestWord = "";
+
+//     var word = str.split(" ")
+
+//     for(var i = 0; i < word.length; i++) {
+//         if (word[i].length > longestWord.length) {
+//             longestWord = word[i]
+//         }
+//     }
+
+//     return longestWord;
+// }
+// var result = longestWord("Web development tool");
+// console.log(result);
+
+
+
+
+// function ocurrenceOfLetter (str, letter) {
+//     var ocurrence = str.split("").filter(function (strLetter) {
+//         return strLetter == letter; 
+//     });
+
+//     return ocurrence.length;
+// }
+
+// var result = ocurrenceOfLetter("JSResourceS.com", "e");
+// console.log(result);
+
+
+
+
+
+
+
+
+
+function login() {
+    var email = document.getElementById("email");
+    var password = document.getElementById("password");
+
+    var emailVal = document.getElementById("emailVal");
+    var passVal = document.getElementById("passVal");
+
+    emailVal.innerHTML = email.value;
+    passVal.innerHTML = password.value;
 }
 
-function setValue() {
-    var userName = document.getElementById("userName")
-    var password = document.getElementById("password")
+function reset() {
+    var email = document.getElementById("email");
+    var password = document.getElementById("password");
 
-    userName.value = "Syed Abdullah"
-    password.value = "abdullah_1118"
+    var emailVal = document.getElementById("emailVal");
+    var passVal = document.getElementById("passVal");
+
+    email.value = "";
+    password.value = "";
+    emailVal.innerHTML = "";
+    passVal.innerHTML = "";
 }
