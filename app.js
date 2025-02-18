@@ -1190,7 +1190,10 @@
 // console.log(result);
 
 
-
+// function foo() {
+//     console.log("function hasbeen called");
+    
+// }
 
 
 
@@ -1211,12 +1214,28 @@ function login() {
 function reset() {
     var email = document.getElementById("email");
     var password = document.getElementById("password");
-
+    
     var emailVal = document.getElementById("emailVal");
     var passVal = document.getElementById("passVal");
-
+    
     email.value = "";
     password.value = "";
     emailVal.innerHTML = "";
     passVal.innerHTML = "";
+}
+
+
+function showPass() {
+    var password = document.getElementById("password");
+    var icon = document.getElementById("icon")
+
+    if(password.type === "text") {
+        password.type = "password";
+
+        icon.innerHTML = "Show"
+    }else {
+
+        password.type = "text"
+        icon.innerHTML = "Hide"
+    }
 }

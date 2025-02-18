@@ -98,6 +98,7 @@ section{
     margin: 35px 30px;
     display: flex;
     flex-direction: column;
+    position: relative;
 }
 section label {
     color: rgb(7, 63, 7);
@@ -137,6 +138,18 @@ section input:focus {
         background-color: rgb(71, 141, 71);
     }
 }
+section .h6 {
+    position: absolute;
+    bottom: 7%;
+    right: 96px;
+    height: 43px;
+    width: 40px;
+    font-size: 13px;
+    font-weight: 0;
+    letter-spacing: 0;
+    border-radius: 0px 10px 10px 0px;
+    background-color: rgb(83, 168, 83);
+}
 .sub2 {
     padding-top: 50px;
 }
@@ -174,7 +187,11 @@ section input:focus {
         <button onclick="setValue()" class="green">Set Value</button>
     </div> -->
 
+    <!-- <div class="create">
+        <a href="javascript:void(0)" onclick="foo()">Link</a>
+    </div> -->
 
+    
     <div class="page">
         <div class="sub_page">
             <section>
@@ -184,6 +201,7 @@ section input:focus {
             <section>
                 <label for="password">Password</label>
                 <input type="password" placeholder="Enter Unique Password" id="password">
+                <button class="h6" id = "icon" onclick="showPass()">show</button>
             </section>
             <button onclick="login()">Login</button>
         </div>
