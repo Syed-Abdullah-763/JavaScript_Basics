@@ -1285,3 +1285,53 @@
 //         seemoer.innerHTML = "See more"
 //     }
 // }
+
+
+
+
+// document.getElementById("btn").onclick = (evt) => {
+//     console.log(evt);
+    
+//     console.log(evt.type);
+//     console.log(evt.target);
+//     console.log(evt.clientX, evt.clientY);
+    
+// }
+
+
+
+var btn = document.getElementById("btn");
+
+// btn.addEventListener("click", function () {
+//     console.log("Event 1 Executed");
+// })
+
+// var func2 = function () {
+//     console.log("Event 2 Executed");
+// }
+// btn.addEventListener("click", func2)
+
+// btn.addEventListener("click", function () {
+//     console.log("Event 3 Executed");
+// })
+
+
+// btn.removeEventListener("click", func2)
+
+
+var mode = "light"
+var body = document.querySelector("body")
+
+btn.addEventListener("click", function () {
+    if (mode === "light") {
+        mode = "dark"
+        body.classList.add("dark")
+        body.classList.remove("light")
+    }else {
+        mode = "light"
+        body.classList.add("light")
+        body.classList.remove("dark")
+    }
+
+    console.log(mode);
+})
