@@ -1200,42 +1200,88 @@
 
 
 
-function login() {
-    var email = document.getElementById("email");
-    var password = document.getElementById("password");
+// function login() {
+//     var email = document.getElementById("email");
+//     var password = document.getElementById("password");
 
-    var emailVal = document.getElementById("emailVal");
-    var passVal = document.getElementById("passVal");
+//     var emailVal = document.getElementById("emailVal");
+//     var passVal = document.getElementById("passVal");
 
-    emailVal.innerHTML = email.value;
-    passVal.innerHTML = password.value;
-}
+//     emailVal.innerHTML = email.value;
+//     passVal.innerHTML = password.value;
+// }
 
-function reset() {
-    var email = document.getElementById("email");
-    var password = document.getElementById("password");
+// function reset() {
+//     var email = document.getElementById("email");
+//     var password = document.getElementById("password");
     
-    var emailVal = document.getElementById("emailVal");
-    var passVal = document.getElementById("passVal");
+//     var emailVal = document.getElementById("emailVal");
+//     var passVal = document.getElementById("passVal");
     
-    email.value = "";
-    password.value = "";
-    emailVal.innerHTML = "";
-    passVal.innerHTML = "";
-}
+//     email.value = "";
+//     password.value = "";
+//     emailVal.innerHTML = "";
+//     passVal.innerHTML = "";
+// }
 
 
-function showPass() {
-    var password = document.getElementById("password");
-    var icon = document.getElementById("icon")
+// function showPass() {
+//     var password = document.getElementById("password");
+//     var icon = document.getElementById("icon")
 
-    if(password.type === "text") {
-        password.type = "password";
+//     if(password.type === "text") {
+//         password.type = "password";
 
-        icon.innerHTML = "Show"
-    }else {
+//         icon.innerHTML = "Show"
+//     }else {
 
-        password.type = "text"
-        icon.innerHTML = "Hide"
-    }
-}
+//         password.type = "text"
+//         icon.innerHTML = "Hide"
+//     }
+// }
+
+
+
+
+
+// function mouseIn () {
+//     console.log("Mouse In Function Called");
+// }
+
+
+// function mouseOut () {
+//     console.log("Mouse Out Function Called");
+// }
+
+
+// function mouseUp() {
+//     console.log("Mouse Up Function Called");
+// }
+
+
+// function mouseDown() {
+//     console.log("Mouse Down Function Called");
+// }
+
+
+
+// function mouseMove() {
+//     console.log("Mouse Move Called");
+// }
+
+
+// function seeMore() {
+//     var paraElement = document.getElementById("paraElement")
+//     var shortPara = "Lorem ipsum dolor sit amet consectetur adipisicing."
+//     var longPara = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo asperiores non beatae delectus dolor, saepe voluptas consectetur nihil sit porro."
+//     var seemoer = document.getElementById("seemoer")
+
+
+//     if (seemoer.innerHTML === "See more") {
+//         paraElement.innerHTML = longPara;
+//         seemoer.innerHTML = "See less"
+//     } else {
+//         paraElement.innerHTML = shortPara;
+//         seemoer.innerHTML = "See more"
+//     }
+// }
