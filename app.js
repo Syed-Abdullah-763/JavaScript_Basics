@@ -1319,19 +1319,44 @@ var btn = document.getElementById("btn");
 // btn.removeEventListener("click", func2)
 
 
-var mode = "light"
-var body = document.querySelector("body")
+// var mode = "light"
+// var body = document.querySelector("body")
 
-btn.addEventListener("click", function () {
-    if (mode === "light") {
-        mode = "dark"
-        body.classList.add("dark")
-        body.classList.remove("light")
-    }else {
-        mode = "light"
-        body.classList.add("light")
-        body.classList.remove("dark")
-    }
+// btn.addEventListener("click", function () {
+//     if (mode === "light") {
+//         mode = "dark"
+//         body.classList.add("dark")
+//         body.classList.remove("light")
+//     }else {
+//         mode = "light"
+//         body.classList.add("light")
+//         body.classList.remove("dark")
+//     }
 
-    console.log(mode);
-})
+//     console.log(mode);
+// })
+
+
+// function mouseIn() {
+//     var img = document.getElementById("img");
+
+//     img.src = "./images/car2.jpg";
+// }
+
+// function mouseOut() {
+//     var img = document.getElementById("img");
+
+//     img.src = "./images/img1.png";
+// }
+
+
+
+// function submit() {
+//     var input = document.getElementById("input");
+
+//     if(input.value.length >= 3) {
+//         input.style.border = "1px solid green";
+//     }else {
+//         input.style.border = "1px solid red";
+//     }
+// }
