@@ -1300,7 +1300,7 @@
 
 
 
-var btn = document.getElementById("btn");
+// var btn = document.getElementById("btn");
 
 // btn.addEventListener("click", function () {
 //     console.log("Event 1 Executed");
@@ -1359,4 +1359,25 @@ var btn = document.getElementById("btn");
 //     }else {
 //         input.style.border = "1px solid red";
 //     }
+// }
+
+
+
+// function inputFocus(input, event) {
+//     // console.log("focus(input)", input);
+
+//     if (event === "focus") {
+//         input.className = "color"
+//     }else {
+//         if (input.value.length >= 3) {
+//             input.className = "green"
+//         }else {
+//             input.className = "red"
+//         }
+//     }
+// }
+
+
+// function handler(para) {
+//     para.className += " largText"
 // }
