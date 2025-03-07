@@ -1381,3 +1381,43 @@
 // function handler(para) {
 //     para.className += " largText"
 // }
+
+
+
+
+
+// function bigPara() {
+//     var para = document.getElementById("para");
+
+//     para.classList.add("bigText")
+//     para.classList.remove("paraClass")
+// }
+
+
+
+
+// var heading = document.getElementsByClassName("heading")
+// console.log("headings", heading);
+
+
+// var headings = document.getElementsByTagName("h1")
+// console.log("headings", headings);
+
+// console.log("headings", headings[0].innerHTML);
+// console.log("headings", headings[6].innerHTML);
+// console.log("headings", headings[7].innerHTML);
+
+
+
+// for (var i = 0; i < headings.length; i++) {
+
+//     if ((i + 1) % 2 == 0) {
+//         headings[i].style.backgroundColor = "black"
+//         headings[i].style.color = "white"
+//     }
+    
+// }
+
+
+// var h1 = document.getElementById("h1")
+// console.log("h1", h1.innerHTML);
