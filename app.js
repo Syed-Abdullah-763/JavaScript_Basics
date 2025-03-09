@@ -1421,3 +1421,13 @@
 
 // var h1 = document.getElementById("h1")
 // console.log("h1", h1.innerHTML);
+
+
+// function onClick() {
+//     var para = document.getElementById("para")
+
+//     para.classList.remove("bigText", "paraClass")
+// }
+
+
+
