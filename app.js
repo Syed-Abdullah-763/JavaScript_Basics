@@ -1431,3 +1431,15 @@
 
 
 
+
+// console.log(document.childNodes[1].children[1].children);
+
+
+// var parent = document.getElementById("parent")
+
+// console.log(parent.firstElementChild);
+// console.log(parent.lastElementChild);
+// console.log(parent.lastElementChild.previousElementSibling);
+// console.log(parent.firstElementChild.nextElementSibling);
+// console.log(parent.firstElementChild.nextElementSibling.parentNode);
+
