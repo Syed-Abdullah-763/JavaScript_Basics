@@ -617,9 +617,9 @@
 
 
 // for (var i = 0; i < str.length; i++) {
-    //     if(str.slice(i, i + 10).toLowerCase() == "javascript") {
-        //         console.log(i);
-        
+//     if(str.slice(i, i + 10).toLowerCase() == "javascript") {
+//         console.log(i);
+
 //         var text = str.slice(0, i) + "Changed => js" + str.slice(i + 10, str.length);
 //         console.log(text);
 
@@ -676,7 +676,7 @@
 
 // var str = "With HTML you can create HTML your own Website.";
 // var replaceWoed = str.replaceAll("HTML", "HYPER TEXT MARKUP LANGUAGE");
-                    // OR 
+// OR 
 // str = str.replace("HTML", "HYPER TEXT MARKUP LANGUAGE");
 // str = str.replaceAll("HTML", "HYPER TEXT MARKUP LANGUAGE");
 
@@ -977,11 +977,11 @@
 
 // function add(num1, num2) {
 //     console.log("num2", num2);
-    
+
 //     if (num2 == undefined) {
 //         num2 = 0;
 //     }
-    
+
 //     console.log("num2", num2);
 //     console.log(num1 + num2);
 // }
@@ -995,7 +995,7 @@
 //     console.log("num1", num1);
 //     console.log("num2", num2);
 //     console.log("num3", num3);
-    
+
 // }
 // add(50, 40)
 
@@ -1026,7 +1026,7 @@
 
 // function foo () {
 //     var add = 50 + 50;
-    
+
 //     return "add"
 // } 
 
@@ -1052,7 +1052,7 @@
 // function onePlusAvg (x, y) {
 
 //     console.log("Done");
-    
+
 //     return 1 + (x + y) / 2
 // }
 
@@ -1072,7 +1072,7 @@
 
 // function getValue() {
 //     // console.log("get value");
-    
+
 //     var userName = document.getElementById("userName")
 //     var password = document.getElementById("password")
 
@@ -1192,7 +1192,7 @@
 
 // function foo() {
 //     console.log("function hasbeen called");
-    
+
 // }
 
 
@@ -1214,10 +1214,10 @@
 // function reset() {
 //     var email = document.getElementById("email");
 //     var password = document.getElementById("password");
-    
+
 //     var emailVal = document.getElementById("emailVal");
 //     var passVal = document.getElementById("passVal");
-    
+
 //     email.value = "";
 //     password.value = "";
 //     emailVal.innerHTML = "";
@@ -1291,11 +1291,11 @@
 
 // document.getElementById("btn").onclick = (evt) => {
 //     console.log(evt);
-    
+
 //     console.log(evt.type);
 //     console.log(evt.target);
 //     console.log(evt.clientX, evt.clientY);
-    
+
 // }
 
 
@@ -1415,7 +1415,7 @@
 //         headings[i].style.backgroundColor = "black"
 //         headings[i].style.color = "white"
 //     }
-    
+
 // }
 
 
@@ -1443,3 +1443,60 @@
 // console.log(parent.firstElementChild.nextElementSibling);
 // console.log(parent.firstElementChild.nextElementSibling.parentNode);
 
+
+
+// var btn = document.getElementById("btn")
+// // btn.onclick = foo;
+
+// btn.setAttribute("onclick" , "foo()")
+// // btn.setAttribute("class" , "myClass")
+
+// function foo () {
+//     console.log("Function called");
+
+//     var check = btn.hasAttribute("class")
+//     console.log("check", check);
+
+//     var checkVal = btn.getAttribute("class")
+//     console.log("checkVal", checkVal);
+
+//     console.log(btn.attributes);
+
+// }
+
+
+
+// var parent = document.getElementById("parent")
+
+// var h1 = document.createElement("h1")
+// h1.innerHTML = "Hello World"
+// parent.appendChild(h1)
+
+
+
+// var parent = document.getElementById("parent");
+
+// // console.log("parent", parent.nodeName);
+
+// var h1Element = document.createElement("h1");
+
+// h1Element.innerHTML = "Hello World";
+// // console.log(h1Element);
+
+
+// h1Element.setAttribute("onclick", "foo()");
+// h1Element.style.color = "red";
+// h1Element.style.fontSize = "40px";
+
+
+// var h1Saylani = document.createElement("h1");
+// h1Saylani.innerHTML = "Hello Saylani";
+// // console.log(h1Saylani);
+
+
+// parent.appendChild(h1Element);
+// parent.appendChild(h1Saylani);
+
+// function foo() {
+//     console.log("Function called");
+// }
