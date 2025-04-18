@@ -1500,3 +1500,68 @@
 // function foo() {
 //     console.log("Function called");
 // }
+
+
+
+
+// Objects 
+
+//  var obj = {
+//     name: 'Abdullah',
+//     age: 17,
+//     course: "web and app development",
+//  }
+
+// console.log(obj);
+// console.log(obj.name);
+// console.log(obj["course"]);
+
+
+// for (var objKey in obj) {
+//     console.log(objKey);
+//     console.log(obj[objKey]);
+// }
+
+// Car object example
+// var car = {
+//     brand: 'Toyota',
+//     model: 'Corolla',
+//     year: 2020,
+//     color: 'Red',
+//     mileage: 15000,
+//     startEngine: function() {
+//         console.log('Engine started');
+//     },
+//     drive: function(distance) {
+//         this.mileage += distance;
+//         console.log(`Driving ${distance} miles. Total mileage: ${this.mileage}`);
+//     },
+//     paint: function(newColor) {
+//         this.color = newColor;
+//         console.log(`Car painted to ${this.color}`);
+//     }
+// };
+
+// // Accessing properties
+// console.log(`Car brand: ${car.brand}`);
+// console.log(`Car model: ${car.model}`);
+
+// // Using methods
+// car.startEngine();
+// car.drive(100);
+// car.paint('Blue');
+
+
+
+// var obj = {
+//     name: 'Abdullah',
+//     age: 17,
+//     course: "web and app development",
+// }
+
+// var checkProperty = "name" in obj;
+// var checkProperty = "car" in obj;
+// console.log(checkProperty);
+
+// delete obj.name;
+// console.log(obj);
