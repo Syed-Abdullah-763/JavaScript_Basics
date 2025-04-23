@@ -1,6 +1,4 @@
-
 // *********Operators**********
-
 
 // var a = "10";
 // var b = "20";
@@ -10,9 +8,6 @@
 // console.log("80" + 20 + 10);
 // console.log(80 + 20 + "10");
 // console.log(80 + 20 - "10");
-
-
-
 
 // var a = 10;
 
@@ -31,7 +26,6 @@
 // a++ + a++ + ++a - --a - ++a + a++ + --a
 // console.log(a++ + a++ + ++a - --a - ++a + a++ + --a)
 
-
 // ********Condition**********
 // var age = 19;
 
@@ -40,7 +34,6 @@
 // } else {
 //     console.log("Don't Allow");
 // }
-
 
 // var age = "18";
 
@@ -55,8 +48,6 @@
 // } else {
 //     console.log("You can't use thus web.")
 // }
-
-
 
 // var num1 = "100";
 
@@ -73,7 +64,6 @@
 //     console.log(false);
 // }
 
-
 // var age = prompt("Enter Your Age");
 
 // if (age == 18) {
@@ -83,7 +73,6 @@
 //     console.log(false);
 // }
 
-
 // var age = +prompt("Enter Your Age");
 
 // if (age === 18) {
@@ -92,7 +81,6 @@
 // } else {
 //     console.log(false);
 // }
-
 
 // 18 , 20 , 25 , 30 => allow
 // var age = 20;
@@ -119,15 +107,12 @@
 //   console.log("pata nahi");
 // }
 
-
 // var age = prompt("enter your age");
 // if (age >=  18) {
 //   console.log("ALLOW");
 // } else {
 //   console.log("not allow");
 // }
-
-
 
 // ----calculator-----
 
@@ -146,10 +131,6 @@
 // } else {
 //     console.log("SYNTAX ERROR");
 // }
-
-
-
-
 
 // *******Leacture#06********
 // Gates opt
@@ -262,9 +243,6 @@
 // &&
 // mark sheet using => If statement
 
-
-
-
 // -----Grade System-------
 
 // var mathMarks = +prompt("Enter Your Math marks");
@@ -274,7 +252,7 @@
 // var englishMarks = +prompt("Enter Your English marks");
 
 // var totalNumber = mathMarks + computerMarks + chemistryMarks + physicsMarks + englishMarks;
-// var percentage = totalNumber / 500 *100; 
+// var percentage = totalNumber / 500 *100;
 
 // if (percentage >= 90 && percentage <= 100) {
 //     console.log("Total Marks:" , totalNumber);
@@ -308,8 +286,6 @@
 //     console.log("User Error");
 // }
 
-
-
 // // -----Custom Condition-----
 
 // var age = +prompt("Type Your Age", "Write here...");
@@ -321,9 +297,6 @@
 //     console.log("You are not able to attend class.");
 // }
 
-
-
-
 // ********Arrays*********
 
 // var arr = ["Abdullah", "Mubbashir", "Maaz"];
@@ -332,31 +305,26 @@
 // console.log(arr);
 // console.log(arr_2);
 
-// arr[6] = "Hamza"; 
+// arr[6] = "Hamza";
 // console.log(arr);
 // console.log(arr[0]);
 // console.log(arr[3]);
-
 
 // var names = ["Abdullah", "Mubbashir", "Maaz"];
 
 // // console.log(names[indexNumber] );
 
-
 // console.log(names[2]);
 // console.log(names[1]);
 // console.log(names[0]);
 
-
 // var arr = ["karachi", 2025, 1992, 24, 101, 804, true, undefined, null];
 // console.log(arr.length);
-
 
 // index= length - 1
 // index= 0
 
-
-// Methods 
+// Methods
 
 // pop , push => last index
 // shift , unshift => first index
@@ -366,18 +334,14 @@
 // console.log("pop(remove) element =>", countries.pop());
 // console.log("array after pop =>", countries);
 
-
-// console.log("push(add) element =>", countries.push("England"));   // => length of array 
+// console.log("push(add) element =>", countries.push("England"));   // => length of array
 // console.log("array after push =>", countries);
-
 
 // console.log("remove(shift) element =>" , countries.shift());
 // console.log( "array after shift=>" , countries);
 
-
 // console.log("add(unshift) element=>" , countries.unshift("Dubai"));
 // console.log( "array after shift=>" , countries);
-
 
 // Summary
 // pop => remove last value in array
@@ -385,17 +349,14 @@
 // shift => remmove first value in array
 // unshift => add first value in array
 
-
-
-// slice(start, end) 
-// slice(index No., length No.) 
+// slice(start, end)
+// slice(index No., length No.)
 
 // length=>      1           2        3           4
 // var cities = ["karachi", "lahore", "multan", "Islamabad"];
 // index=>      0           1         2           3
 
 // var arrCopy = cities.slice(1, 3);
-
 
 // console.log( "array=>" , cities);
 // console.log( "slice=>" , arrCopy);
@@ -409,9 +370,6 @@
 // var arrCopy = cities.slice(0, -1);
 // console.log( "slice=>" , arrCopy);
 
-
-
-
 // var arr = [1,2,3,4,5,6,7,8,9,10];
 
 // var copyArr = arr.slice(2, 7);
@@ -422,9 +380,7 @@
 // console.log(arr);
 // console.log(copyArr);
 
-
 // var arr = ["karachi", "lahore", "Islamabad"]
-
 
 // var copyArr = arr.splice(2, 1) //Remove
 // var copyArr = arr.splice(1, 2) //Remove
@@ -445,8 +401,6 @@
 // console.log("Wnners ->", winners);
 // console.log("Passed ->", passed);
 
-
-
 // var lateApplied = applied.splice(2, 0, "Hmmad", "Amir", "Haseeb");
 // var lateApplied = applied.splice(2, 1);
 // var lateApplied = applied.splice(3, 1, "Kashif");
@@ -460,19 +414,15 @@
 // console.log("Passed ->", passed);
 // console.log("Late Applied ->", lateApplied);
 
-
-
 // ********for-Loop*******
 
 // for (var i = 1; i <= 10; i++) {
 //     console.log("Hello World", i);
 // }
 
-
 // for (var i = 1; i <= 5; i++) {
 //     document.write("number ", i + "<br />");
 // }
-
 
 // for(var i = 10; i >= 1; i--) {
 //     document.write("decrement "+ i + "<br />");
@@ -486,16 +436,14 @@
 //     document.write("decrement " + i + "<br />");
 // }
 
-
-
-// Table 
+// Table
 
 // var tableNumber = +prompt("Which table do you want to print ?");
-// var startingNumber = +prompt("Write starting point..."); 
+// var startingNumber = +prompt("Write starting point...");
 // var endingNumber = +prompt("Write ending point...");
 
 // var tableNumber = 2
-// var startingNumber = 1 
+// var startingNumber = 1
 // var endingNumber = 10
 
 // for (var i = startingNumber; i <= endingNumber; i++) {
@@ -503,7 +451,7 @@
 // }
 
 // var tableNumber = +prompt("Which table do you want to print ?");
-// var startingNumber = +prompt("Write starting point..."); 
+// var startingNumber = +prompt("Write starting point...");
 // var endingNumber = +prompt("Write ending point...");
 
 // if (startingNumber <= endingNumber && typeof(tableNumber) == "number" && typeof(startingNumber) == "number" && typeof(endingNumber) == "number") {
@@ -513,15 +461,13 @@
 //     }
 
 // } else {
-//     document.write("Syntax Error");    
+//     document.write("Syntax Error");
 // }
-
-
 
 // var cities = [
 //     "Karachi",
-//     "Lahore", 
-//     "Multan", 
+//     "Lahore",
+//     "Multan",
 //     "Islamabad",
 // ];
 
@@ -529,11 +475,9 @@
 //     document.write(cities[i] + "<br />");
 // };
 
-
 // for (var i = cities.length - 1; i >= 0; i--) {
 //     document.write(cities[i] + "<br />");
 // };
-
 
 // Assignment
 
@@ -546,7 +490,6 @@
 // ];
 
 // var scoreArr = [];
-
 
 // var htmlMarks = +prompt("Enter your HTML marks..");
 // var cssMarks = +prompt("Enter your CSS marks..");
@@ -562,15 +505,7 @@
 //     document.write(subjectName[i] + " " + scoreArr[i] + "<br />");
 // }
 
-
-
-
-
-
-
-
-
-// checking existence of value in array 
+// checking existence of value in array
 
 // var userCity = prompt("Enter Your City Name");
 
@@ -594,8 +529,6 @@
 //     alert("Your input is not found wrong.");
 // }
 
-
-
 // nested loop
 
 // for (var i = 0; i <= 2; i++) {
@@ -606,15 +539,9 @@
 //     }
 // }
 
-
-
-
-
 // ***********String************
 
-
 // var str = "often abbreviated as JS, is a programming language and core technology of the Web, alongside HTML and CSS. 99% of websites use JavaScript on the client side for webpage behavior.[10] Web browsers have a dedicated JavaScript engine that executes the client code. These engines are also utilized in some servers and a variety of apps. The most popular runtime Javascript system for non-browser usage is Node.js."
-
 
 // for (var i = 0; i < str.length; i++) {
 //     if(str.slice(i, i + 10).toLowerCase() == "javascript") {
@@ -627,20 +554,14 @@
 //     }
 // }
 
-
-
-
-
-// Methods of arrays 
+// Methods of arrays
 
 // var str = "Often abbreviated as JS, is a programming language and core technology of the Web, alongside HTML and CSS. 99% of websites use JavaScript on the client side for webpage behavior.[10] Web browsers have a dedicated JavaScript engine that executes the client code. These engines are also utilized in some servers and a variety of apps. The most popular runtime Javascript system for non-browser usage is Node.js."
-
 
 // console.log(str.toLocaleLowerCase().indexOf("javascript"));
 // console.log(str.charAt(127));
 
 // if()
-
 
 // var arr = ["lahore", "karachi"];
 // var indexNum = arr.indexOf(prompt("Enter yoyur city name"));
@@ -650,9 +571,6 @@
 // } else {
 //   alert("welcome");
 // }
-
-
-
 
 // var word = prompt("Enter your word")
 // var findIndex = str.toLowerCase().indexOf(word);
@@ -664,29 +582,19 @@
 //     alert(`Your word "${word}" exists on ${findIndex} index number`);
 // }
 
-
-
-
-
-
 // console.log(str.charAt(127));
-
-
-
 
 // var str = "With HTML you can create HTML your own Website.";
 // var replaceWoed = str.replaceAll("HTML", "HYPER TEXT MARKUP LANGUAGE");
-// OR 
+// OR
 // str = str.replace("HTML", "HYPER TEXT MARKUP LANGUAGE");
 // str = str.replaceAll("HTML", "HYPER TEXT MARKUP LANGUAGE");
 
 // var index = str.lastIndexOf("HTML");
 
-
 // console.log(str);
 // console.log(index);
 // console.log(replaceWoed);
-
 
 // indexOf => Find index of first match element from left to right
 // lastIndexOf => Find index of first match element from right to left
@@ -694,19 +602,11 @@
 // replace => replace first match value from left to right
 // replaceAll => replace all match values in the give string (from left to right)
 
-
-
-
-
-
-
 // ******** Math Library ********
-
 
 // Math.round => Convert decemal to integar according to round-of rule
 // Math.floor => Convert decemal to integar by just removing point and values after point
 // Math.ceil => Convert decemal to integar by increse a number (without using round-of rule)
-
 
 // var num = 90.88;
 // console.log(num);
@@ -714,10 +614,8 @@
 // var round = Math.round(num);
 // console.log(round);
 
-
 // var floor = Math.floor(num);
 // console.log(floor);
-
 
 // num = 98.1
 // console.log("Reinitialized => ",num);
@@ -725,17 +623,10 @@
 // var ceil = Math.ceil(num);
 // console.log(ceil);
 
-
-
-
-
-
-
 // var userInput = +prompt("Enter number between 1 to 10");
 
 // var number = Math.floor(Math.random() * 10 + 1);
 // console.log("Your number is ",number);
-
 
 // if(userInput == number) {
 //     alert("Your number is matched");
@@ -751,12 +642,7 @@
 //     alert("Better luck, try again");
 // }
 
-
-
-
-
-
-// ********Conversoin of String to Number******* 
+// ********Conversoin of String to Number*******
 
 // var str1 = "100";
 // var str2 = "200";
@@ -767,16 +653,11 @@
 
 // console.log(number);
 
-
-
 // var con = Number("451.8989987878");
 // var con1 = parseInt("451.8989987878");
 
 // console.log( "Number " ,con);
 // console.log( "ParesInt" ,con1);
-
-
-
 
 // var str = 1200987;
 // console.log(String(str));
@@ -785,14 +666,7 @@
 // console.log("Number ", str);
 // console.log("String", number);
 
-
-
-
-
-
-
-
-// Nested Condition 
+// Nested Condition
 
 // var userName = "syed.abdullah@gmail.com"
 // var password = "syeddd@11"
@@ -810,18 +684,10 @@
 //     console.log("Incorrect user name or password");
 // }
 
-
-
-
-
-
-
 // str convert into array
 // var str = "saylani mass it training";
 // var str = "saylani";
 // console.log("str", str.split("a"));
-
-
 
 // array convert into str
 // join
@@ -829,16 +695,9 @@
 // console.log(arr.join(" "));
 // console.log(arr.reverse());
 
-
-
-
-
-
-
 // var str = "HTML is the standard markup language for Web pages.";
 
 // var arr = str.split(" ")
-
 
 // var tempArr = []
 
@@ -846,26 +705,18 @@
 //     // var word = arr[i]
 //     // console.log(word[0].toUpperCase() + word.slice(1).toLowerCase());
 
-
 //     tempArr.push(arr[i][0].toUpperCase() + arr[i].slice(1).toLowerCase());
 // }
 
 // console.log(tempArr.join(" "));
 
-
-
-
-
-
 // *********Date***********
-
 
 // var date = new Date ()
 // var date = new Date ("02 18 2025")
 // var month = date.getMonth()
 
 // console.log(date);
-
 
 // var date = new Date()
 
@@ -875,13 +726,10 @@
 // console.log("toJSON",date.toJSON());
 // console.log("toUTCString",date.toUTCString());
 
-
 // var myCreatedDate = new Date (2025, 1, 19)
 // console.log(myCreatedDate.toUTCString());
 
 // console.log(Date.now());
-
-
 
 // var day = new Date().getDay()
 // var hours = new Date().getHours()
@@ -892,10 +740,6 @@
 
 // console.log(month);
 
-
-
-
-
 // -----Age Calculator-------
 
 // var userDOB = new Date (prompt("Enter your date of birth", "01 18 2025")).getTime();
@@ -903,8 +747,6 @@
 // var ageMili = currentDate - userDOB;
 // var age = ageMili / (1000 * 60 * 60 * 24 * 365)
 // console.log(Math.floor(age));
-
-
 
 // -------Sale Program------
 
@@ -923,14 +765,6 @@
 // document.write(`Only ${daysLeft} are left for exclusive sale.` + "<br />")
 // document.write(`Go and check the sale now` + "<br />")
 
-
-
-
-
-
-
-
-
 // ****************Functions******************
 
 // function addition() {
@@ -940,13 +774,10 @@
 // }
 // addition();
 
-
-
 // function sub (num1, num2) {
 //     console.log(num1 - num2);
 // }
 // sub(100, 50)
-
 
 // calculator
 
@@ -966,14 +797,10 @@
 //     }
 // }
 
-
-
 // function greet() {
 //     console.log("Hello world");
 // }
 // greet()
-
-
 
 // function add(num1, num2) {
 //     console.log("num2", num2);
@@ -987,9 +814,6 @@
 // }
 // add(10)
 
-
-
-
 // function add (num1 = 0, num2 = 0, num3 = 0) {
 //     console.log(num1 + num2 + num3);
 //     console.log("num1", num1);
@@ -999,42 +823,31 @@
 // }
 // add(50, 40)
 
-
-
-
 // function greet (userName = "") {
 //     alert ("Hello " + userName)
 // }
 
 // greet ("Abdullah")
 
-
-
-
-
 // function foo () {
 //     var add = 50 + 50;
 
 //     return add
-// } 
+// }
 
 // var temp = foo ();
 
 // console.log(temp);
-
-
 
 // function foo () {
 //     var add = 50 + 50;
 
 //     return "add"
-// } 
+// }
 
 // var temp = foo ();
 
 // console.log(temp);
-
-
 
 // function addition (num1 = 0, num2 = 0) {
 //     console.log(num1 + num2);
@@ -1046,8 +859,6 @@
 // var result = addition(100,400)
 
 // console.log(result);
-
-
 
 // function onePlusAvg (x, y) {
 
@@ -1064,11 +875,7 @@
 // console.log("One plus average of a and c is ", onePlusAvg(a, c));
 // console.log("One plus average of b and c is ", onePlusAvg(b, c));
 
-
-
-
-
-// Get Input Value 
+// Get Input Value
 
 // function getValue() {
 //     // console.log("get value");
@@ -1088,32 +895,21 @@
 //     password.value = "abdullah_1118"
 // }
 
-
-
-
-
 // function sqr(num) {
 //     return num * num;
 // }
 // var result = sqr(prompt("Enter positive number!"))
 // console.log(result);
 
-
-
-
 // function factorial (num) {
 //     if (num == 1) {
 //         return 1;
 //     }
 
-
 //     return num * factorial(num - 1);
 // }
 // var result = factorial(5);
 // console.log(result);
-
-
-
 
 // function hypotenuse (per, base) {
 //     function sqr(num) {
@@ -1130,9 +926,6 @@
 // var result = hypotenuse(5,4);
 // console.log(result);
 
-
-
-
 // function isPalindrome(str) {
 //     var cleanStr = str.replace(/[^a-zA-Z]/g, "").toLowerCase();
 
@@ -1142,8 +935,6 @@
 // }
 // var result = isPalindrome("madam")
 // console.log(result);
-
-
 
 // function upperCase(str) {
 //     var splitStr = str.split(" ");
@@ -1156,8 +947,6 @@
 // }
 // var result = upperCase("the quick brown fox")
 // console.log(result);
-
-
 
 // function longestWord (str) {
 //     var longestWord = "";
@@ -1175,12 +964,9 @@
 // var result = longestWord("Web development tool");
 // console.log(result);
 
-
-
-
 // function ocurrenceOfLetter (str, letter) {
 //     var ocurrence = str.split("").filter(function (strLetter) {
-//         return strLetter == letter; 
+//         return strLetter == letter;
 //     });
 
 //     return ocurrence.length;
@@ -1189,16 +975,10 @@
 // var result = ocurrenceOfLetter("JSResourceS.com", "e");
 // console.log(result);
 
-
 // function foo() {
 //     console.log("function hasbeen called");
 
 // }
-
-
-
-
-
 
 // function login() {
 //     var email = document.getElementById("email");
@@ -1224,7 +1004,6 @@
 //     passVal.innerHTML = "";
 // }
 
-
 // function showPass() {
 //     var password = document.getElementById("password");
 //     var icon = document.getElementById("icon")
@@ -1240,42 +1019,31 @@
 //     }
 // }
 
-
-
-
-
 // function mouseIn () {
 //     console.log("Mouse In Function Called");
 // }
-
 
 // function mouseOut () {
 //     console.log("Mouse Out Function Called");
 // }
 
-
 // function mouseUp() {
 //     console.log("Mouse Up Function Called");
 // }
-
 
 // function mouseDown() {
 //     console.log("Mouse Down Function Called");
 // }
 
-
-
 // function mouseMove() {
 //     console.log("Mouse Move Called");
 // }
-
 
 // function seeMore() {
 //     var paraElement = document.getElementById("paraElement")
 //     var shortPara = "Lorem ipsum dolor sit amet consectetur adipisicing."
 //     var longPara = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo asperiores non beatae delectus dolor, saepe voluptas consectetur nihil sit porro."
 //     var seemoer = document.getElementById("seemoer")
-
 
 //     if (seemoer.innerHTML === "See more") {
 //         paraElement.innerHTML = longPara;
@@ -1286,9 +1054,6 @@
 //     }
 // }
 
-
-
-
 // document.getElementById("btn").onclick = (evt) => {
 //     console.log(evt);
 
@@ -1297,8 +1062,6 @@
 //     console.log(evt.clientX, evt.clientY);
 
 // }
-
-
 
 // var btn = document.getElementById("btn");
 
@@ -1315,9 +1078,7 @@
 //     console.log("Event 3 Executed");
 // })
 
-
 // btn.removeEventListener("click", func2)
-
 
 // var mode = "light"
 // var body = document.querySelector("body")
@@ -1336,7 +1097,6 @@
 //     console.log(mode);
 // })
 
-
 // function mouseIn() {
 //     var img = document.getElementById("img");
 
@@ -1349,8 +1109,6 @@
 //     img.src = "./images/img1.png";
 // }
 
-
-
 // function submit() {
 //     var input = document.getElementById("input");
 
@@ -1360,8 +1118,6 @@
 //         input.style.border = "1px solid red";
 //     }
 // }
-
-
 
 // function inputFocus(input, event) {
 //     // console.log("focus(input)", input);
@@ -1377,14 +1133,9 @@
 //     }
 // }
 
-
 // function handler(para) {
 //     para.className += " largText"
 // }
-
-
-
-
 
 // function bigPara() {
 //     var para = document.getElementById("para");
@@ -1393,12 +1144,8 @@
 //     para.classList.remove("paraClass")
 // }
 
-
-
-
 // var heading = document.getElementsByClassName("heading")
 // console.log("headings", heading);
-
 
 // var headings = document.getElementsByTagName("h1")
 // console.log("headings", headings);
@@ -1406,8 +1153,6 @@
 // console.log("headings", headings[0].innerHTML);
 // console.log("headings", headings[6].innerHTML);
 // console.log("headings", headings[7].innerHTML);
-
-
 
 // for (var i = 0; i < headings.length; i++) {
 
@@ -1418,10 +1163,8 @@
 
 // }
 
-
 // var h1 = document.getElementById("h1")
 // console.log("h1", h1.innerHTML);
-
 
 // function onClick() {
 //     var para = document.getElementById("para")
@@ -1429,11 +1172,7 @@
 //     para.classList.remove("bigText", "paraClass")
 // }
 
-
-
-
 // console.log(document.childNodes[1].children[1].children);
-
 
 // var parent = document.getElementById("parent")
 
@@ -1442,8 +1181,6 @@
 // console.log(parent.lastElementChild.previousElementSibling);
 // console.log(parent.firstElementChild.nextElementSibling);
 // console.log(parent.firstElementChild.nextElementSibling.parentNode);
-
-
 
 // var btn = document.getElementById("btn")
 // // btn.onclick = foo;
@@ -1464,15 +1201,11 @@
 
 // }
 
-
-
 // var parent = document.getElementById("parent")
 
 // var h1 = document.createElement("h1")
 // h1.innerHTML = "Hello World"
 // parent.appendChild(h1)
-
-
 
 // var parent = document.getElementById("parent");
 
@@ -1483,16 +1216,13 @@
 // h1Element.innerHTML = "Hello World";
 // // console.log(h1Element);
 
-
 // h1Element.setAttribute("onclick", "foo()");
 // h1Element.style.color = "red";
 // h1Element.style.fontSize = "40px";
 
-
 // var h1Saylani = document.createElement("h1");
 // h1Saylani.innerHTML = "Hello Saylani";
 // // console.log(h1Saylani);
-
 
 // parent.appendChild(h1Element);
 // parent.appendChild(h1Saylani);
@@ -1501,10 +1231,7 @@
 //     console.log("Function called");
 // }
 
-
-
-
-// Objects 
+// Objects
 
 //  var obj = {
 //     name: 'Abdullah',
@@ -1515,7 +1242,6 @@
 // console.log(obj);
 // console.log(obj.name);
 // console.log(obj["course"]);
-
 
 // for (var objKey in obj) {
 //     console.log(objKey);
@@ -1551,8 +1277,6 @@
 // car.drive(100);
 // car.paint('Blue');
 
-
-
 // var obj = {
 //     name: 'Abdullah',
 //     age: 17,
@@ -1565,3 +1289,118 @@
 
 // delete obj.name;
 // console.log(obj);
+
+// var std  = {
+//     name: "Syed Abdullah",
+//     class: "X-A",
+//     rollNo: 323513,
+// }
+
+// var checkProp = "rollNo" in std;
+
+// console.log(checkProp);
+
+// delete std.class;
+
+// std.name = "Syed Muhammad Abdullah";
+
+// console.log(std);
+
+// var obj = {
+//     name: "Syed Abdullah",
+//     rollNo: 517310,
+//     courses: [
+//         "Web and App",
+//         "AI"
+//     ],
+//     marks: {
+//         WebAndApp: 90,
+//         ai: 80,
+//     }
+// }
+
+// console.log(obj.courses[0]);
+// console.log(obj.marks.WebAndApp);
+// console.log(obj.name.length);
+
+// for(var key in obj) {
+//     console.log(key);
+//     console.log(obj[key]);
+// }
+
+// var obj = {
+//     arr1: [1,2,3],
+//     arr2: [4,5,6],
+//     arr3: [7,8,9],
+// }
+
+// for (var key in obj) {
+
+//     console.log(key);
+
+//     // console.log(obj[key]);
+
+//     for (var i = 0; i < obj[key].length; i++) {
+
+//         console.log(obj[key][i]);
+//     }
+// }
+
+// var std = {
+//   firstName: "Syed",
+//   lastName: "Abdullah",
+//   getFullName: function () {
+//     return this.firstName + this.lastName;
+//   },
+// };
+
+// var fullName = std.getFullName();
+
+// console.log("fullName", fullName);
+
+
+// var obj = {
+//     marks: {
+//         html: 80,
+//         css: 90,
+//         js: 70,
+//         react: 60,
+//     },
+
+//     getTotalMarks: function() {
+//         var total = 0
+//         for(var key in this.marks) {
+//             total += this.marks[key];
+//         }
+
+//         return total
+//     },
+// }
+
+// var totalMarks = obj.getTotalMarks();
+
+// console.log(totalMarks);
+
+
+
+var obj = {
+    marks: {
+        html: 80,
+        css: 90,
+        js: 70,
+        react: 60,
+    },
+
+    getFullMarks: function () {
+        var total = 0;
+
+        for (var key in this.marks){
+            total += this.marks[key]
+            console.log(key, this.marks[key]);
+        }
+        return total;
+    }
+}
+
+var totalMarks = obj.getFullMarks();
+console.log("totalMarks",totalMarks);
