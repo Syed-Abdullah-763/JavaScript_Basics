@@ -1358,7 +1358,6 @@
 
 // console.log("fullName", fullName);
 
-
 // var obj = {
 //     marks: {
 //         html: 80,
@@ -1381,26 +1380,85 @@
 
 // console.log(totalMarks);
 
+// var obj = {
+//     marks: {
+//         html: 80,
+//         css: 90,
+//         js: 70,
+//         react: 60,
+//     },
+
+//     getFullMarks: function () {
+//         var total = 0;
+
+//         for (var key in this.marks){
+//             total += this.marks[key]
+//             console.log(key, this.marks[key]);
+//         }
+//         return total;
+//     }
+// }
+
+// var totalMarks = obj.getFullMarks();
+// console.log("totalMarks",totalMarks);
+
+// function Std (first = "", last = "") {
+//     this.firstName = first;
+//     this.lastName = last
+// }
+
+// var std1 = new Std("Syed", "Abdullah")
+// std1.age = 17
+// console.log(std1);
 
 
-var obj = {
-    marks: {
-        html: 80,
-        css: 90,
-        js: 70,
-        react: 60,
-    },
+// ------Constructos------
+function Courses(name, days, campus, timing, trainer, passingStd) {
+    this.name = name;
+    this.days = days;
+    this.timing = timing;
+    this.campus = campus;
+    this.trainer = trainer;
+    this.passingStd = passingStd;
 
-    getFullMarks: function () {
-        var total = 0;
-
-        for (var key in this.marks){
-            total += this.marks[key]
-            console.log(key, this.marks[key]);
-        }
-        return total;
+    this.getCourseName = function () {
+        console.log("123", this.name);
+        
     }
 }
 
-var totalMarks = obj.getFullMarks();
-console.log("totalMarks",totalMarks);
+Courses.prototype.instName = "SMIT"
+
+var course1 = new Courses(
+    "MWA", 
+    "TTS", 
+    "ZA", 
+    null, 
+    "JA"
+);
+course1.timing = {
+    start: "9am",
+    end: "11am",
+}
+course1.getCampusName = function () {
+    return this.campus
+}
+
+console.log(course1);
+console.log(course1, course1.getCourseName());
+
+var course2 = new Courses(
+    "MWA",
+    "MWF",
+    ["ZA", "Malir"],
+
+    {
+        start: "9pm",
+        end: "11pm",
+    },
+
+    "Jaffar Aman"
+);
+
+
+console.log(course2);
