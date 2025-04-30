@@ -1413,52 +1413,129 @@
 
 
 // ------Constructos------
-function Courses(name, days, campus, timing, trainer, passingStd) {
-    this.name = name;
-    this.days = days;
-    this.timing = timing;
-    this.campus = campus;
-    this.trainer = trainer;
-    this.passingStd = passingStd;
+// function Courses(name, days, campus, timing, trainer, passingStd) {
+//     this.name = name;
+//     this.days = days;
+//     this.timing = timing;
+//     this.campus = campus;
+//     this.trainer = trainer;
+//     this.passingStd = passingStd;
 
-    this.getCourseName = function () {
-        console.log("123", this.name);
+//     this.getCourseName = function () {
+//         console.log("123", this.name);
         
+//     }
+// }
+
+// Courses.prototype.instName = "SMIT"
+
+// var course1 = new Courses(
+//     "MWA", 
+//     "TTS", 
+//     "ZA", 
+//     null, 
+//     "JA"
+// );
+// course1.timing = {
+//     start: "9am",
+//     end: "11am",
+// }
+// course1.getCampusName = function () {
+//     return this.campus
+// }
+
+// console.log(course1);
+// console.log(course1, course1.getCourseName());
+
+// var course2 = new Courses(
+//     "MWA",
+//     "MWF",
+//     ["ZA", "Malir"],
+
+//     {
+//         start: "9pm",
+//         end: "11pm",
+//     },
+
+//     "Jaffar Aman"
+// );
+
+
+// console.log(course2);
+
+
+
+
+
+
+// var std1 = {
+//     id: 101,
+//     name: "Syed Abdullah",
+//     age: 17,
+//     email: "abdullah@gmail.com",
+//     course: "Web And App",
+//     isActive: true,
+// }
+
+
+// var std2 = {
+//     id: 102,
+//     name: "Amin Ahmed",
+//     age: 16,
+//     email: "amin@gmail.com",
+//     course: "AI and Data Science",
+//     isActive: true,
+// }
+
+
+
+// var std = [std1, std2]
+// console.log(std[0]);
+
+
+var parent = document.getElementById("parent");
+
+var std = [
+    {
+        id: 102,
+        name: "Amin Ahmed",
+        age: 16,
+        email: "amin@gmail.com",
+        course: "AI and Data Science",
+        isActive: true,
+    },
+    
+
+    {
+        id: 101,
+        name: "Syed Abdullah",
+        age: 17,
+        email: "abdullah@gmail.com",
+        course: "Web And App",
+        isActive: true,
+    },
+]
+
+
+// My Method 
+for(var i = 0; i < std.length; i++) {
+
+    parent.innerHTML += `<tr></tr>`;
+
+    for(var key in std[i]) {
+        parent.lastElementChild.innerHTML += ` <td>${std[i][key]}</td> `
     }
 }
 
-Courses.prototype.instName = "SMIT"
 
-var course1 = new Courses(
-    "MWA", 
-    "TTS", 
-    "ZA", 
-    null, 
-    "JA"
-);
-course1.timing = {
-    start: "9am",
-    end: "11am",
+// Sir's Method 
+for(var i = 0; i < std.length; i++) {
+    parent.innerHTML += `<tr>
+                <td>${std[i].id}</td>
+                <td>${std[i].name}</td>
+                <td>${std[i].age}</td>
+                <td>${std[i].email}</td>
+                <td>${std[i].course}</td>
+                <td>${std[i].isActive}</td>
+            </tr>`
 }
-course1.getCampusName = function () {
-    return this.campus
-}
-
-console.log(course1);
-console.log(course1, course1.getCourseName());
-
-var course2 = new Courses(
-    "MWA",
-    "MWF",
-    ["ZA", "Malir"],
-
-    {
-        start: "9pm",
-        end: "11pm",
-    },
-
-    "Jaffar Aman"
-);
-
-
-console.log(course2);
