@@ -1493,49 +1493,133 @@
 // console.log(std[0]);
 
 
-var parent = document.getElementById("parent");
+// var parent = document.getElementById("parent");
 
-var std = [
-    {
-        id: 102,
-        name: "Amin Ahmed",
-        age: 16,
-        email: "amin@gmail.com",
-        course: "AI and Data Science",
-        isActive: true,
-    },
+// var std = [
+//     {
+//         id: 102,
+//         name: "Amin Ahmed",
+//         age: 16,
+//         email: "amin@gmail.com",
+//         course: "AI and Data Science",
+//         isActive: true,
+//     },
     
 
-    {
-        id: 101,
-        name: "Syed Abdullah",
-        age: 17,
-        email: "abdullah@gmail.com",
-        course: "Web And App",
-        isActive: true,
-    },
-]
+//     {
+//         id: 101,
+//         name: "Syed Abdullah",
+//         age: 17,
+//         email: "abdullah@gmail.com",
+//         course: "Web And App",
+//         isActive: true,
+//     },
+// ]
 
 
 // My Method 
-for(var i = 0; i < std.length; i++) {
+// for(var i = 0; i < std.length; i++) {
 
-    parent.innerHTML += `<tr></tr>`;
+//     parent.innerHTML += `<tr></tr>`;
 
-    for(var key in std[i]) {
-        parent.lastElementChild.innerHTML += ` <td>${std[i][key]}</td> `
-    }
-}
+//     for(var key in std[i]) {
+//         parent.lastElementChild.innerHTML += ` <td>${std[i][key]}</td> `
+//     }
+// }
 
 
 // Sir's Method 
-for(var i = 0; i < std.length; i++) {
-    parent.innerHTML += `<tr>
-                <td>${std[i].id}</td>
-                <td>${std[i].name}</td>
-                <td>${std[i].age}</td>
-                <td>${std[i].email}</td>
-                <td>${std[i].course}</td>
-                <td>${std[i].isActive}</td>
-            </tr>`
-}
+// for(var i = 0; i < std.length; i++) {
+//     parent.innerHTML += `<tr>
+//                 <td>${std[i].id}</td>
+//                 <td>${std[i].name}</td>
+//                 <td>${std[i].age}</td>
+//                 <td>${std[i].email}</td>
+//                 <td>${std[i].course}</td>
+//                 <td>${std[i].isActive}</td>
+//             </tr>`
+// }
+
+
+
+
+
+// Local Storage 
+
+// function showVal() {
+//     var input = document.getElementById("input")
+//     // var userName = document.getElementById("userName")
+
+//     // userName.innerHTML = input.value
+
+
+//     localStorage.setItem("heading", input.value)
+
+//     getVal()
+// }
+
+// function getVal() {
+//     var value = localStorage.getItem("heading")
+//     var userName = document.getElementById("userName")
+
+//     userName.innerHTML = value;
+// }
+
+
+// localStorage.setItem("bool", true);
+
+// var num = localStorage.getItem("bool")
+// console.log(typeof num);
+
+
+
+// var arr = ["Syed", "Abdullah"];
+
+// var obj = {
+//     a: 10,
+//     b: 20,
+// }
+
+// console.log(arr);
+
+// localStorage.setItem("obj", obj)
+
+
+// var getObj = localStorage.getItem("obj")
+
+// console.log(getObj);
+
+
+
+// var arr = ["Syed", "Abdullah"];
+// var str = JSON.stringify(arr)
+
+// // console.log(str, typeof str);
+
+// localStorage.setItem("userNames", str)
+
+
+// var userArr = localStorage.getItem("userNames")
+// var parseArr = JSON.parse(userArr)
+
+// console.log('userArr', userArr);
+// console.log('parseArr', parseArr);
+
+// sessionStorage.setItem("hello", "world")
+
+
+
+// var obj = {
+//     a: 10,
+//     b: 20,
+// }
+
+// localStorage.setItem("obj", obj)
+// // console.log(localStorage.getItem("obj"));
+
+
+
+// var str = JSON.stringify(obj)
+// localStorage.setItem("obj", str)
+// console.log(str);
+// console.log(JSON.parse (str));
