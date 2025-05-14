@@ -1411,7 +1411,6 @@
 // std1.age = 17
 // console.log(std1);
 
-
 // ------Constructos------
 // function Courses(name, days, campus, timing, trainer, passingStd) {
 //     this.name = name;
@@ -1423,17 +1422,17 @@
 
 //     this.getCourseName = function () {
 //         console.log("123", this.name);
-        
+
 //     }
 // }
 
 // Courses.prototype.instName = "SMIT"
 
 // var course1 = new Courses(
-//     "MWA", 
-//     "TTS", 
-//     "ZA", 
-//     null, 
+//     "MWA",
+//     "TTS",
+//     "ZA",
+//     null,
 //     "JA"
 // );
 // course1.timing = {
@@ -1460,13 +1459,7 @@
 //     "Jaffar Aman"
 // );
 
-
 // console.log(course2);
-
-
-
-
-
 
 // var std1 = {
 //     id: 101,
@@ -1477,7 +1470,6 @@
 //     isActive: true,
 // }
 
-
 // var std2 = {
 //     id: 102,
 //     name: "Amin Ahmed",
@@ -1487,11 +1479,8 @@
 //     isActive: true,
 // }
 
-
-
 // var std = [std1, std2]
 // console.log(std[0]);
-
 
 // var parent = document.getElementById("parent");
 
@@ -1504,7 +1493,6 @@
 //         course: "AI and Data Science",
 //         isActive: true,
 //     },
-    
 
 //     {
 //         id: 101,
@@ -1516,8 +1504,7 @@
 //     },
 // ]
 
-
-// My Method 
+// My Method
 // for(var i = 0; i < std.length; i++) {
 
 //     parent.innerHTML += `<tr></tr>`;
@@ -1527,8 +1514,7 @@
 //     }
 // }
 
-
-// Sir's Method 
+// Sir's Method
 // for(var i = 0; i < std.length; i++) {
 //     parent.innerHTML += `<tr>
 //                 <td>${std[i].id}</td>
@@ -1540,18 +1526,13 @@
 //             </tr>`
 // }
 
-
-
-
-
-// Local Storage 
+// Local Storage
 
 // function showVal() {
 //     var input = document.getElementById("input")
 //     // var userName = document.getElementById("userName")
 
 //     // userName.innerHTML = input.value
-
 
 //     localStorage.setItem("heading", input.value)
 
@@ -1565,13 +1546,10 @@
 //     userName.innerHTML = value;
 // }
 
-
 // localStorage.setItem("bool", true);
 
 // var num = localStorage.getItem("bool")
 // console.log(typeof num);
-
-
 
 // var arr = ["Syed", "Abdullah"];
 
@@ -1584,12 +1562,9 @@
 
 // localStorage.setItem("obj", obj)
 
-
 // var getObj = localStorage.getItem("obj")
 
 // console.log(getObj);
-
-
 
 // var arr = ["Syed", "Abdullah"];
 // var str = JSON.stringify(arr)
@@ -1597,7 +1572,6 @@
 // // console.log(str, typeof str);
 
 // localStorage.setItem("userNames", str)
-
 
 // var userArr = localStorage.getItem("userNames")
 // var parseArr = JSON.parse(userArr)
@@ -1607,8 +1581,6 @@
 
 // sessionStorage.setItem("hello", "world")
 
-
-
 // var obj = {
 //     a: 10,
 //     b: 20,
@@ -1617,9 +1589,49 @@
 // localStorage.setItem("obj", obj)
 // // console.log(localStorage.getItem("obj"));
 
-
-
 // var str = JSON.stringify(obj)
 // localStorage.setItem("obj", str)
 // console.log(str);
 // console.log(JSON.parse (str));
+
+// var age = 19;
+
+// switch (age) {
+//   case 18:
+//     console.log("Age is 18");
+//     break;
+//   case 20:
+//     console.log("age is 20");
+//     break;
+//   case 22:
+//     console.log("Age is 22");
+//     break;
+//   case 24:
+//     console.log("age is 24");
+
+//   default:
+//     console.log("age is not matched");
+// }
+
+
+
+
+// var arr = ["Karachi", "Lahore", "Islamabad", "Multan"]
+
+// var i = 3;
+
+// // while (i < arr.length) {
+// //     console.log(i, arr[i]);
+    
+// //     i++
+// // }
+
+
+// do {
+//     console.log(arr[i]);
+//     // console.log(i);
+    
+    
+//     i--
+// }
+// while (i >= 0)
