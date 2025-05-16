@@ -1635,3 +1635,22 @@
 //     i--
 // }
 // while (i >= 0)
+
+
+
+
+
+
+// function windowHanler(){
+
+//     // window.open("./window.html", "win1", "height:300; width: 300")
+
+//     // window.location.assign("./window.html")
+//     // location.href = "./window.html"
+    
+
+// }
+
+
+
+console.log(window.location.hash);
