@@ -1653,4 +1653,75 @@
 
 
 
-console.log(window.location.hash);
+// console.log(window.location.hash);
+
+
+
+
+// setTimeout(function () {
+//     console.log("Hello");
+    
+// }, 2000)
+
+
+// setInterval(function () {
+//     console.log("Hello");
+    
+// }, 2000)
+
+
+// function foo () {
+//     console.log("Hello");
+    
+// }
+
+// setTimeout(foo, 1000)
+
+
+
+
+// var counter = 0
+
+// var interval = setInterval (function () {
+//     console.log(`Hello ${++counter}`);
+//     if (counter === 5) {
+//         clearInterval(interval)
+//     }
+    
+// }, 1000)
+
+
+
+
+// var interVal = setInterval(function () {
+//     console.log("Interval");
+// }, 1000)
+
+// function stopInterval() {
+//     clearInterval(interVal)
+// }
+
+
+
+// console.log("Hello 1");
+
+// setTimeout(function() {
+//     console.log("Hello 2");
+    
+// }, 1000)
+
+// console.log("Hello 3");
+
+
+
+// setInterval(function () {
+//     console.log("Hello 1st");
+    
+// }, 2000)
+
+
+
+// setInterval(function () {
+//     console.log("Hello 2nd");
+    
+// }, 1000)
