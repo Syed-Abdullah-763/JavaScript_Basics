@@ -1725,3 +1725,45 @@
 //     console.log("Hello 2nd");
     
 // }, 1000)
+
+
+
+
+// const obj = {
+//     name: "Abdullah",
+//     age: 17,
+//     email: "syed.abdullah7638@gmail.com",
+// }
+
+// for (let key in obj) {
+//     console.log(obj[key]);
+// }
+
+
+// const {name ,age, email} = obj
+// const {age, email} = obj
+
+// console.log(name);
+// console.log(age);
+// console.log(email);
+
+
+// let name = "Syed Abdullah"
+
+// console.log(userName);
+// console.log(name);
+
+
+
+
+
+// const arr = ["Abdullah", 17, "male"]
+
+// const [name, age, gander] = arr
+// const [name, , gander] = arr
+// const [, age, gander] = arr
+// const [name, age,] = arr
+
+// console.log(gander);
+// console.log(age);
+// console.log(name);
