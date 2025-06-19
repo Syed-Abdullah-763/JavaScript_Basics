@@ -1767,3 +1767,201 @@
 // console.log(gander);
 // console.log(age);
 // console.log(name);
+
+
+
+
+
+// function sum () {
+//     console.log(this);
+// }
+// sum()
+
+
+
+
+// const obj1 = {age: 17}
+// const obj2 = obj1
+
+// obj1.age = 20
+// obj2.age = 20
+// console.log(obj1);
+// console.log(obj2);
+
+
+// const obj1 = {
+//     a: 10,
+// }
+// obj1.b = 20
+// const obj2 = {...obj1}
+// obj2.a = 50;
+
+// console.log("obj1", obj1);
+// console.log("obj2", obj2);
+
+
+// const obj1 = {
+//     a: 10,
+//     nestedObj: {
+//         b: 100,
+//     }
+// }
+
+// const obj2 = {...obj1}
+// obj2.nestedObj.b = 50;
+
+
+// const obj1 = {
+//     a: 10,
+//     nestedObj: {
+//         b: 100,
+//     }
+// }
+
+// const obj2 = JSON.parse(JSON.stringify({...obj1}))
+// obj2.nestedObj.b = 50;
+// obj2.a = 70
+
+
+// console.log("obj1", obj1);
+// console.log("obj2", obj2);
+
+
+
+
+// fetch("https://fakestoreapi.com/products/")
+// .then(res => res.json())
+
+// .then (result => {
+//     result.forEach(element => {
+//         console.log(element);
+        
+//     });
+// })
+
+// .catch (error => {
+//     console.log("error", error);
+// })
+
+
+
+
+// const books = [
+//     {
+//     title: "The Great Gatsby",
+//     author: "F. Scott Fitzgerald",
+//     yearPublished: 1925,
+//     genre: "Classic",
+//     pages: 180
+//   },
+//   {
+//     title: "To Kill a Mockingbird",
+//     author: "Harper Lee",
+//     yearPublished: 1960,
+//     genre: "Fiction",
+//     pages: 281
+//   },
+//   {
+//     title: "1984",
+//     author: "George Orwell",
+//     yearPublished: 1949,
+//     genre: "Dystopian",
+//     pages: 328
+//   },
+//   {
+//     title: "The Catcher in the Rye",
+//     author: "J.D. Salinger",
+//     yearPublished: 1951,
+//     genre: "Fiction",
+//     pages: 214
+//   },
+// ];
+
+// books.forEach( (val, index, arr) => {
+//     console.log(val);
+//     console.log(index);
+//     console.log(arr);
+// })
+
+
+// const result = books.filter(ele => ele.yearPublished > 1940)
+// console.log(result);
+
+// const tittle = books.map (book => book.title)
+// console.log(tittle);
+
+
+
+// books.forEach (ele => {
+//     ele.author = "Syed Abdullah"
+// })
+// console.log( "original array", books);
+
+
+// const arr = [1,2,3,4,5,6,7,8,9]
+// const newArr = arr.map(ele => ele + 10)
+// console.log(newArr);
+// console.log(arr);
+
+
+// const myBook = books.find (ele => ele.yearPublished > 1950)
+// const myBook = books.findIndex (ele => ele.yearPublished > 1950)
+// console.log(myBook);
+
+
+
+
+// setTimeout( () => {
+//     console.log("Hello");
+// },1000)
+
+// fetch("https://fakestoreapi.com/products/")
+// .then(ele => ele.json())
+// .then (ele => {
+//         console.log(ele);
+// })
+// .catch(err => {
+//     console.log(err);
+    
+// })
+
+
+// const promiseOne = new Promise((resolve, reject) => {
+//     // setTimeout(()=> {
+//     //     resolve("Abdullah")
+//     // }, 2000)
+
+//     setTimeout(()=> {
+//         reject(new Error ("I am Error"))
+//     }, 2000)
+// })
+
+// promiseOne.then ((value)=> {
+//     console.log(value); 
+// }) 
+// promiseOne.catch((error) => {
+//     console.log(error);
+// })
+
+
+let p1 = new Promise ((resolve, reject)=> {
+    setTimeout(()=>{
+        console.log("Promise One is resolved");
+        resolve(56)
+    },1000)
+
+})
+
+p1.then((value)=>{
+    console.log(value);
+    return new Promise ((resolve, reject)=>{
+        setTimeout(() => {
+            resolve(10)
+        },2000)
+    })
+})
+.then((value)=> {
+    console.log("Promise Two Is Resolved");
+    console.log(value);
+    
+})
