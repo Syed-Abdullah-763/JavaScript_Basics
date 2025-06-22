@@ -1622,7 +1622,7 @@
 
 // // while (i < arr.length) {
 // //     console.log(i, arr[i]);
-    
+
 // //     i++
 // // }
 
@@ -1630,8 +1630,8 @@
 // do {
 //     console.log(arr[i]);
 //     // console.log(i);
-    
-    
+
+
 //     i--
 // }
 // while (i >= 0)
@@ -1647,7 +1647,7 @@
 
 //     // window.location.assign("./window.html")
 //     // location.href = "./window.html"
-    
+
 
 // }
 
@@ -1660,19 +1660,19 @@
 
 // setTimeout(function () {
 //     console.log("Hello");
-    
+
 // }, 2000)
 
 
 // setInterval(function () {
 //     console.log("Hello");
-    
+
 // }, 2000)
 
 
 // function foo () {
 //     console.log("Hello");
-    
+
 // }
 
 // setTimeout(foo, 1000)
@@ -1687,7 +1687,7 @@
 //     if (counter === 5) {
 //         clearInterval(interval)
 //     }
-    
+
 // }, 1000)
 
 
@@ -1707,7 +1707,7 @@
 
 // setTimeout(function() {
 //     console.log("Hello 2");
-    
+
 // }, 1000)
 
 // console.log("Hello 3");
@@ -1716,14 +1716,14 @@
 
 // setInterval(function () {
 //     console.log("Hello 1st");
-    
+
 // }, 2000)
 
 
 
 // setInterval(function () {
 //     console.log("Hello 2nd");
-    
+
 // }, 1000)
 
 
@@ -1835,7 +1835,7 @@
 // .then (result => {
 //     result.forEach(element => {
 //         console.log(element);
-        
+
 //     });
 // })
 
@@ -1922,7 +1922,7 @@
 // })
 // .catch(err => {
 //     console.log(err);
-    
+
 // })
 
 
@@ -1944,24 +1944,166 @@
 // })
 
 
-let p1 = new Promise ((resolve, reject)=> {
-    setTimeout(()=>{
-        console.log("Promise One is resolved");
-        resolve(56)
-    },1000)
+// let p1 = new Promise ((resolve, reject)=> {
+//     setTimeout(()=>{
+//         console.log("Promise One is resolved");
+//         resolve(56)
+//     },1000)
 
-})
+// })
 
-p1.then((value)=>{
-    console.log(value);
-    return new Promise ((resolve, reject)=>{
-        setTimeout(() => {
-            resolve(10)
-        },2000)
-    })
-})
-.then((value)=> {
-    console.log("Promise Two Is Resolved");
-    console.log(value);
-    
-})
+// p1.then((value)=>{
+//     console.log(value);
+//     return new Promise ((resolve, reject)=>{
+//         setTimeout(() => {
+//             resolve(10)
+//         },2000)
+//     })
+// })
+// .then((value)=> {
+//     console.log("Promise Two Is Resolved");
+//     console.log(value);
+
+// })
+
+
+
+const arr = [1, 2, 3, 4, 5, 6]
+
+// const mapArr = arr.map((value) => {
+//     // console.log(value);
+//     // return value * 2
+//     // return true
+//     // return false
+// })
+// console.log(mapArr);
+
+
+// const filterArr = arr.filter(value => {
+//     if (value % 2 == 0) {
+//         return true
+//     }
+// })
+// console.log(filterArr);
+
+
+// const myPromise = new Promise ((resolve, reject) => {
+//     // const condition = true
+//     const condition = false
+
+//     if (condition) {
+//         resolve("Promise Resolved")
+//     }else {
+//         reject("Promise Rejected")
+//     }
+// })
+
+// myPromise.then ((response) => {
+//     console.log(response);
+// })
+// .catch((error) => {
+//     console.log(error);
+
+// })
+
+// console.log(myPromise);
+
+
+
+// const greet = () => {
+//     try {
+//         // let userName = "Syed Abdullah"
+//         console.log("use1");
+//         console.log("use1");
+//         alert(userName)
+//         console.log("use3");
+//         console.log("use4");
+
+//     } catch (error) {
+//         console.log(error);
+
+//     }
+// }
+// greet()
+// console.log("Hello World");
+
+
+// const greet = () => {
+//     try {
+//         const bool = false
+//         if (bool) {
+//             console.log("Success");
+            
+//         }else{
+//             throw new Error("Condition is not matched!");
+//         }
+//     }
+//     catch(error) {
+//         console.log(error);
+//     }
+// }
+// greet()
+
+
+// const fetchProduct = async () => {
+//     try{
+//         console.log("API Calling");
+//         const response = await fetch("https://fakestoreapi.com/products/").then((res) => res.json())
+//         // const response = await fetch("https://fakestoreapi.com/product/").then((res) => res.json())
+//         console.log(response);
+        
+//     } catch(error) {
+//         console.log(error);
+        
+//     }
+// }
+// fetchProduct()
+
+
+
+// ------Class------
+// class std {
+//     constructor(name,age,gender,email) {
+//         this.name = name
+//         this.age = age
+//         this.gender = gender
+//         this.email = email
+//     }
+// }
+// console.log(std);
+
+// const std1 = new std("Abdullah", 17, "male", "abdullah@gmail.com")
+// console.log(std1);
+
+
+
+// ------Inheritance------
+
+class commonFields {
+    constructor(name,age,email, gander) {
+        this.name = name
+        this.age = age
+        this.email = email
+        this.gander = gander
+    }
+}
+
+
+class std extends commonFields{
+    constructor(name,age,email, gander, stdId) {
+        super(name,age,email, gander)
+        this.stdId = stdId
+    }
+}
+
+class teacherObj extends commonFields{
+    constructor(name,age,email, gander, teacherId){
+        super(name,age,email, gander)
+        this.teacherId = teacherId
+    }
+}
+
+const std1 = new std("Abdullah", 17, "abdullah@gmail.com", "male", 101)
+const teacher1 = new teacherObj("Jaffar Aman", 24, "jaffar@gmail.com", "male", 101)
+console.log(std1);
+console.log(teacher1);
