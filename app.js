@@ -2079,31 +2079,55 @@ const arr = [1, 2, 3, 4, 5, 6]
 
 // ------Inheritance------
 
-class commonFields {
-    constructor(name,age,email, gander) {
-        this.name = name
-        this.age = age
-        this.email = email
-        this.gander = gander
-    }
-}
+// class commonFields {
+//     constructor(name,age,email, gander) {
+//         this.name = name
+//         this.age = age
+//         this.email = email
+//         this.gander = gander
+//     }
+// }
 
 
-class std extends commonFields{
-    constructor(name,age,email, gander, stdId) {
-        super(name,age,email, gander)
-        this.stdId = stdId
-    }
-}
+// class std extends commonFields{
+//     constructor(name,age,email, gander, stdId) {
+//         super(name,age,email, gander)
+//         this.stdId = stdId
+//     }
+// }
 
-class teacherObj extends commonFields{
-    constructor(name,age,email, gander, teacherId){
-        super(name,age,email, gander)
-        this.teacherId = teacherId
-    }
-}
+// class teacherObj extends commonFields{
+//     constructor(name,age,email, gander, teacherId){
+//         super(name,age,email, gander)
+//         this.teacherId = teacherId
+//     }
+// }
 
-const std1 = new std("Abdullah", 17, "abdullah@gmail.com", "male", 101)
-const teacher1 = new teacherObj("Jaffar Aman", 24, "jaffar@gmail.com", "male", 101)
-console.log(std1);
-console.log(teacher1);
+// const std1 = new std("Abdullah", 17, "abdullah@gmail.com", "male", 101)
+// const teacher1 = new teacherObj("Jaffar Aman", 24, "jaffar@gmail.com", "male", 101)
+// console.log(std1);
+// console.log(teacher1);
+
+
+
+// import array from "./data.js";
+// console.log(array);
+
+// import {secondUserName, userName} from "./data1.js"
+// console.log(userName);
+// console.log(secondUserName);
+
+
+
+// import { arr2 } from "./data.js"
+// // console.log(arr1);
+// console.log(arr2);
+
+
+// import { myFunction } from './data1.js';
+
+// myFunction(); // Will work
+
+import { arr1, arr2 } from "./data1.js"
+console.log(arr1);
+console.log(arr2);
